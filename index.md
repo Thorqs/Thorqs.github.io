@@ -1,2 +1,12 @@
+<head>
+<title>Home</title>
+</head>
+
 # Welcome!
-There will be more here soon, promise.
+Welcome to my little corner of the internet, I hope that you enjoy your stay.
+If you'd like to learn a bit about me, be sure to check out the [about](about.md) page.
+Otherwise, read on.
+
+Here are some projects that I have worked on that you may find interesting:
+* [Alchemaster](Alchemaster/Alchemaster_Old/index.html), a tower defense I, originally, made with classmates over the course of five weeks.
+
