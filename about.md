@@ -1,4 +1,5 @@
-# My Background
+# About me
+## My Background
 I was born in the United States of America but grew up in New Zealand.
 I received my Bachelor of Science from University of Puget Sound in Tacoma, Washington, USA.
 Here I majored in physics but learned an appreciation for a vareity of subjects with one of my favourites being the interactions of Science, Technology, and Society.
@@ -9,7 +10,7 @@ This, combined with a prior interest in computing technology, led me to attend c
 This single year course was designed to be the functional equivalent of a major and, for the most part, I think this is accurate.
 I took the full course instead of simply working on projects on my own because if it's worth doing it's worth doing correctly.
 
-# My interests
+## My interests
 It should come as no surprise, given my background, that I am generally interested in the way things work.
 Nor should it be surprising that I like dealing with things in a formulaic manner.
 It may, though, be surprising that I find that knitting is a natural extension of this enjoyment of formulae.
