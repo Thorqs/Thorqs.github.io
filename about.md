@@ -4,7 +4,7 @@ I was born in the United States of America but grew up in New Zealand.
 I ended up going back to the US for university getting a Bachelor of Science from University of Puget Sound in Tacoma, Washington, majoring in physics and minoring in Mathematics and a Master of Science from University of Oregon in Eugene, Oregon, in Applied Physics with emphasis on Optical Materials and Devices. 
 I like to (over)simplify the latter degree as studying lasers and laser accessories.
 
-Through out both of these experiences I learned an appreciation for a vareity of subjects with one of my favourites being the interactions of Science, Technology, and Society.
+Throughout both of these experiences I learned an appreciation for a vareity of subjects with one of my favourites being the interactions of Science, Technology, and Society.
 In the process of obtaining these degrees I also learned that knowledge of programming has becoming increasingly important to physicists.
 This, combined with a prior interest in computing technology, led me to continue my eduation at University of Otago (Dunedin, NZ) in order to obtain a Diploma for Graduates endorsed with Computer Science.
 This single year course was designed to be the functional equivalent of a major and, for the most part, I think this is accurate.
