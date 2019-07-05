@@ -13,3 +13,6 @@ Here are some projects that I am currently working on:
 And here are some that I have worked on that you may find interesting:
 * [Alchemaster](Alchemaster/Alchemaster_Old/index.html), a tower defence I, originally, made with classmates over the course of five weeks. My favourite part of this project was learning about and designing a pathing system that wouldn't cause performance strain when several enemies were present.
 * An unnamed iOS [App](https://github.com/RobertGiles/App) for dealing with social anxiety that I helped to complete with another student for our full-year software engineering project.
+
+You can contact me by:
+* email at quinn.thorsnes@gmail.com
