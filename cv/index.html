@@ -1,0 +1,36 @@
+---
+layout: default
+title: Quinn Thorsnes eCV
+---
+<div class="blurb">
+  <h1>My eCV</h1>
+    <p>
+    Here you will find a more expanded electronic version of my CV.
+    For each of the positions you can click the name to expand for additional information.
+    </p>
+    <h2>University of Otago</h2>
+    <button type = "button" class = "collapsible">Computer Game Design Project</button>
+    <div class = "content">
+      <p>
+        This was a project I worked on with two others over the course of 5 weeks.
+        Because the other two members of the group were proficient in different kinds of art I was one of the main programmers for the project.
+        In particular I took responsibility for the behaviour of the enemies in the game with the pathfinding being easily one of the most interesting aspects.
+        I also took partial responsibility for the User Interface design as I was the member of the group most experienced with the genre of game we were creating - tower defense - which also meant that I naturally was given partial responsibilty for checking the balance of the game.
+      </p>
+      <p>
+        The pathfinding was interesting because the technique we had learned for pathfinding was among the best for a low number of actors, especially when destinations needed to be recalculated frequently.
+        This method, the A* method, has each actor probe possible moves, preferring the shortest path towards the target that it has thus far explored.
+        I knew that we would have many many actors on the screen at once, meaning that any way to reduce their need to think would be greatly valuable.
+        Further, our game had player-created mazes being constructed while enemies were moving towards a static goal location.
+        The long mazes meant that there was a long path to calculate.
+      </p>
+      <p>
+        The solution I arrived at, after discussing the project with a friend with greater experience in the field, was to use flow maps.
+        In this case the map itself calculates the distance a given tile is from the goal.
+        The downside is that the entirety of the map must be explored to determine its distance rom the goal, but the upside is that this only needs to happen once per update.
+        For enemies this is much faster since they simply need to look at the tiles adjacent to them and move towards the one with the lowest distance to the goal.
+        An additional advantage to this technique is that it enabled us to tell if there were areas of the map that were blocked off thus impossible to navigate from.
+        This allowed us to prevent actions that would cause this situation.
+      </p>
+    </div>
+</div><!-- /.blurb -->
