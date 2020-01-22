@@ -1,8 +1,8 @@
 body
 {
-    background-color: #f1f1f1;
+    background-color: #151515;
     margin: 60px auto;
-    width: 70%;
+    width: 80%;
 }
 
 nav ul, footer ul
@@ -22,7 +22,7 @@ nav ul li, footer ul li
 a
 {
     text-decoration: none;
-    color: #999;
+    color: #796e24;
 }
 
 a:hover
@@ -32,39 +32,55 @@ a:hover
 
 h1
 {
-    font-size: 2.5em;
+    font-size: 2.25em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #ff5a09;
 }
 
 h2
 {
     font-size: 2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #ff5a09;
 }
 
 h3
 {
-    font-size: 1.5em;
+    font-size: 1.75em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #ff5a09;
+}
+
+h4
+{
+    font-size: 1.5em;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    color: #ff5a09;
 }
 
 p
 {
-    font-size: 1em;
-    line-height: 1.4em;
-    color: #333;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    color: #fff;
 }
 
 footer
 {
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    font-size: 1em;
+}
+
+ul
+{
+    font-size: 1.25em;
+    color: #efefef
 }
 
 ul.posts
-{ 
+{
     margin: 20px auto 40px; 
-    font-size: 1em;
+    font-size: 1.25em;
 }
 
 ul.posts li
@@ -75,28 +91,28 @@ ul.posts li
 /* Style button to open and close collapsibles */
 .collapsible
 {
-    background-color: #eee;
-    color: #444;
+    background-color: #151515;
+    color: #efefef;
     cursor: pointer;
-    padding: 18px;
+    padding: .5em;
     width: 100%;
     border: none;
     text-align: left;
     outline: none;
-    font-size: 1em;
+    font-size: 1.25em;
 }
 
 /* add background color to collapsible button on hover */
 .active, .collapsible:hover
 {
-    background-color: #ccc;
+    background-color: #6e6e6e;
 }
 
 /* Style collapsible content. Hidden by default */
 .content
 {
-    padding: 0 18px;
+    padding: 0 .5em;
     display: none;
     overflow: hidden;
-    background-color: #f1f1f1;
+    background-color: #151515;
 }
