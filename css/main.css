@@ -88,10 +88,10 @@ ul.posts li
     list-style: none;
 }
 
-/* Style button to open and close collapsibles */
+/* Style button to open and close collapsible */
 .collapsible
 {
-    background-color: #151515;
+    background-color: #242424;
     color: #efefef;
     cursor: pointer;
     padding: .5em;
@@ -102,17 +102,17 @@ ul.posts li
     font-size: 1.25em;
 }
 
-/* add background color to collapsible button on hover */
-.active, .collapsible:hover
+/* add background colour to collapsible button on hover */
+/*.active, .collapsible:hover
 {
     background-color: #6e6e6e;
 }
-
+*/
 /* Style collapsible content. Hidden by default */
 .content
 {
     padding: 0 .5em;
     display: none;
     overflow: hidden;
-    background-color: #151515;
+    background-color: #242424;
 }
