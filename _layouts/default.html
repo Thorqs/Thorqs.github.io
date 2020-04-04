@@ -9,6 +9,10 @@
   <body>
     <nav>
       <ul>
+        <li><a href="mailto:quinn.thorsnes@gmail.com">Email</a></li>
+        <li><a href="https://github.com/sionth">Github</a></li>
+      </ul>
+      <ul>
         <li><a href="/">Home</a></li>
         <li><a href="/cv">CV</a></li>
         <li><a href="/projects">Projects</a></li>
@@ -17,12 +21,9 @@
     <div class="container">
       {{ content }}
     </div><!-- /.container -->
-    <footer>
-      <ul>
-        <li><a href="mailto:quinn.thorsnes@gmail.com">email</a></li>
-        <li><a href="https://github.com/sionth">github.com/sionth</a></li>
-      </ul>
-    </footer>
+    <!--<footer>
+      
+    </footer> -->
   </body>
   
   <script>
@@ -31,19 +32,19 @@
 
   for (i = 0; i < coll.length; i++)
   {
-      coll[i].addEventListener("click", function()
+    coll[i].addEventListener("click", function()
+    {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if(content.style.maxHeight)
       {
-          this.classList.toggle("active");
-          var content = this.nextElementSibling;
-          if(content.style.display === "block")
-          {
-              content.style.display = "none";
-          }
-          else
-          {
-              content.style.display = "block";
-          }
-      });
+        content.style.maxHeight = null;
+      }
+      else
+      {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
   }
-</script>
+  </script>
 </html>

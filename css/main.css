@@ -3,6 +3,10 @@ body
     background-color: #242424;
     margin: 60px auto;
     width: 80%;
+	/*background-image: url("/images/chalkboards.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;*/
 }
 
 nav ul, footer ul
@@ -95,11 +99,25 @@ ul.posts li
     color: #efefef;
     cursor: pointer;
     padding: .5em;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 1.25em;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 1.25em;
+}
+
+.collapsible:before
+{
+	content: "\2795"; /*unicode character for filled side arrow*/
+	font-size: 13px;
+	color: white;
+	float: left;
+	margin-left: 5px;
+}
+
+.active:before
+{
+	content: "\2796"; /*unicode for filled down arrow */
 }
 
 /* add background colour to collapsible button on hover */
@@ -108,11 +126,12 @@ ul.posts li
     background-color: #6e6e6e;
 }
 */
-/* Style collapsible content. Hidden by default */
+/* Style collapsible content. */
 .content
-{
-    padding: 0 .5em;
-    display: none;
-    overflow: hidden;
+  {
+    padding: 0 0.5em;
     background-color: #242424;
-}
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
