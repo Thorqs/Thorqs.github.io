@@ -67,6 +67,7 @@ p
     font-size: 1.25em;
     line-height: 1.25em;
     color: #fff; /*#e8ce99; */
+	font-family: 'Verdana', 'Arial', 'Sans-Serif'
 }
 
 footer
@@ -104,11 +105,12 @@ ul.posts li
 	text-align: left;
 	outline: none;
 	font-size: 1.25em;
+	font-family: 'Verdana', 'Arial', 'Sans-Serif'
 }
 
 .collapsible:before
 {
-	content: "\2795"; /*unicode character for filled side arrow*/
+	content: "\2795";
 	font-size: 13px;
 	color: white;
 	float: left;
@@ -117,7 +119,7 @@ ul.posts li
 
 .active:before
 {
-	content: "\2796"; /*unicode for filled down arrow */
+	content: "\2796";
 }
 
 /* add background colour to collapsible button on hover */
@@ -128,10 +130,11 @@ ul.posts li
 */
 /* Style collapsible content. */
 .content
-  {
-    padding: 0 0.5em;
-    background-color: #242424;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-  }
+{
+  padding: 0 0.5em;
+  background-color: #242424;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-famly: 'Verdana', 'Arial', 'Sans-Serif'
+}
