@@ -93,13 +93,59 @@ ul.posts li
     list-style: none;
 }
 
+/** Tree content shenanigans **/
+/* remove default bullets
+ul, #contentTree
+{
+	list-style-type: none;
+}
+
+/* Remove margins and padding from parent ul
+#contentTree
+{
+	margin: 0;
+	padding: 0;
+}
+
+.caret
+{
+	cursor: pointer;
+	user-select: none; /* prevent text selection 
+}
+
+.caret::before
+{
+	content: "\25B6";
+	color: white;
+	display: inline-block;
+	margin-right: 6px;
+}
+
+.caret-down::before
+{
+	transform: rotate(90deg);
+}
+
+.nested
+{
+	display: none;
+	/*max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.active
+{
+	display: block;
+}*/
+
 /* Style button to open and close collapsible */
 .collapsible
 {
-    background-color: #242424;
-    color: #efefef;
-    cursor: pointer;
-    padding: .5em;
+	background-color: #242424;
+	color: #efefef;
+	cursor: pointer;
+	padding: .5em;
 	width: 100%;
 	border: none;
 	text-align: left;
