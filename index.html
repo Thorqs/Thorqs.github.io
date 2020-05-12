@@ -25,6 +25,11 @@ title: Quinn's Homepage
 		<p>
 			This programme was designed to provide students with the functional equivalent of a major in computer science.
 		</p>
+		<h4>Related Projects </h4>
+		<ul>
+			<li> Game Development Class Project </li>
+			<li> Software Engineering Class Project </li>
+		</ul>
 	</div>
 	<button type = "button" class = "collapsible">
 		<div style = "float: left;">
@@ -70,6 +75,10 @@ title: Quinn's Homepage
 		<p>
 			University of Puget sound is a liberal arts college meaning that I was required to take classes outside of my major for the reason of being hypothetically well-rounded in education.
 		</p>
+		<h4>Related Projects</h4>
+		<ul>
+			<li> Alternator from Scratch </li>
+		</ul>
 	</div>
   
   <h2>Professional Experience</h2>
@@ -170,60 +179,13 @@ title: Quinn's Homepage
     </p>
   </div>
 
-  <h2>Other Experiences</h2>
+<!--  <h2>Other Experiences</h2>
   <p>
     These are experiences and projects where I have practised skills relevant to professional situations but did not occur within a professional context.
     Many of these are projects in which I worked with others towards a final goal.
     More information about my personal projects can be found on the projects page of this website.
-  </p>
+  </p> -->
 
-  <button type = "button" class = "collapsible">
-    <div style = "float: left;"><b>Computer Game Design Class Project</b><br>University of Otago</div>
-    <div style = "float: right;" align = "right"><b>January 2019 - February 2019</b><br>Dunedin, NZ</div>
-  </button>
-	<!-- TODO: move summary out, add more details -->
-  <div class = "content">
-    <h4>Summary</h4>
-    <ul>
-      <li>Worked with 2 other students to create a short tower defence game.</li>
-      <li>Implemented Dijkstra/Flow maps for efficient path-finding</li>
-      <li>Designed and revised the project's User Interface</li>
-    </ul>
-    <p>
-      This was a project I worked on with two others over the course of 5 weeks.
-      I have preserved the initial form of it <a href = "/projects/Alchemaster/">here</a> but you should also be able to view it on the course website <a href = "http://www.cs.otago.ac.nz/cosc360/game-projects-alchemaster.php">here</a>.
-      Because the other two members of the group were proficient in different kinds of art I was one of the main programmers for the project.
-      In particular I took responsibility for the behaviour of the enemies in the game with the pathfinding being easily one of the most interesting aspects.
-      I also took partial responsibility for the User Interface design as I was the member of the group most experienced with the genre of game we were creating - tower defence - which also meant that I naturally was given partial responsibility for checking the balance of the game.
-    </p>
-    <p>
-      The path-finding was interesting because the technique we had learned for path-finding was among the best for a low number of actors, especially when destinations needed to be recalculated frequently.
-      This method, the A* method, has each actor probe possible moves, preferring the shortest path towards the target that it has thus far explored.
-      I knew that we would have many many actors on the screen at once, meaning that any way to reduce their need to think would be greatly valuable.
-      Further, our game had player-created mazes being constructed while enemies were moving towards a static goal location.
-      The long mazes meant that there was a long path to calculate.
-    </p>
-    <p>
-      The solution I arrived at, after discussing the project with a friend with greater experience in the field, was to use flow maps.
-      In this case the map itself calculates the distance a given tile is from the goal.
-      The downside is that the entirety of the map must be explored to determine its distance from the goal, but the upside is that this only needs to happen once per update.
-      For enemies this is much faster since they simply need to look at the tiles adjacent to them and move towards the one with the lowest distance to the goal.
-      An additional advantage to this technique is that it enabled us to tell if there were areas of the map that were blocked off thus impossible to navigate from.
-      This allowed us to prevent actions that would cause this situation.
-    </p>
-  </div>
-
-  <button type = "button" class = "collapsible">
-    <div style = "float: left;"><b>Software Engineering Class Project</b><br>University of Otago</div>
-    <div style = "float: right;" align = "right"><b>February 2018 - November 2018</b><br>Dunedin, NZ</div>
-  </button>
-	<!-- TODO: move summary out, add more details -->
-  <div class = "content">
-    <h4>Summary</h4>
-    <ul>
-      <li>Collaborated with a total of 3 other students to create 2 mobile applications designed with disability support in mind</li>
-      <li>Performed User Interface testing for the second application</li>
-    </ul>
-  </div>
+  
   
 </div><!-- /.blurb -->
