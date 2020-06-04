@@ -1,6 +1,6 @@
 ---
 layout: default
-title: RL Quest
+title: RLQuest
 ---
 <!-- TODO: consider tabs for design doc, alpha, beta, etc. -->
 <!-- tab 1: project discussion/description including relearning functional/technical design document making -->
@@ -19,23 +19,52 @@ title: RL Quest
 	The first step in the process is to sit down and write a good specification - a project map, if you will.
 	I had some experience from class projects during my computer science studies that told me that his was an important thing to do, but this knowledge was vague.
 	After a bit of research I came across the distinction between functional and technical specifications as design documents and their equal importance.
-	For functional specification I found <a href = "https://www.joelonsoftware.com/2000/10/02/painless-functional-specifications-part-1-why-bother/">Joel Spolsky's 4-part series</a> an interesting and entertaining read, especially because it explains a potential source for one of my greatest banes in the technical world: poorly made documentation.
+	For functional specification I found <a href = "https://www.joelonsoftware.com/2000/10/02/painless-functional-specifications-part-1-why-bother/">Joel Spolsky's 4-part series</a> an interesting and entertaining read, especially because it also explains a potential source for one of my greatest banes in the technical world: poorly made documentation.
 </p>
 <h2>Functional Specification</h2> <!-- From the user's perspective. -->
 <h3>Outline</h3>
 <p>
-	The main purpose of RLQuest is to make getting things done easier and more interesting on the desktop.
+	The main purpose of RLQuest is to increase computer productivity by taking cues from quests in computer games.
 	This is born of my own tendency towards feeling the need to always be doing the most optimal thing, or doing things in the most optimal way, and ending up in analysis paralysis.
 	My hope is that this will help others that find themselves in a similar situation.
 </p>
+<h4>Disclaimer</h4>
 <p>
-	One of the major design goals is find and use that which make quest trackers and journals in games easy to follow and make decisions about how to spend one's time in the game.
+	This document is not final; it may be changed and updated as the project evolves.
+	This document will also not cover much, if any, of the inner workings of the program.
+	Instead, this will focus on functionality from the user's perspective.
+</p>
+
+<h3>Goals</h3> <!-- bold goal then explain - easy to skim as list but also justify - paragraph per goal-->
+<p>
+	<b>Reduce effects of analysis paralysis.</b>
+	RLQuest's core principle is find and use that which make quest trackers and journals in games easy to follow and make decisions about how to spend one's time in the game.
+</p>
+<p>
+	<b>Overlay onto the user's desktop.</b>
+	RLQuest should be visible on top of whatever the user is doing.
+	It should not, however, get in the way.
 	This includes making a simple list of objectives that are always on screen with a more detailed, but content obscuring, version of quests/tasks that can be shown or hidden as desired.
 </p>
+<p>
+	<b>Automatic saving of objectives and journal.</b>
+	Users should not have to hit a button for their objectives to be saved.
+</p>
+
+<h3>Ungoals</h3>
+<p>
+	<b>There are no plans for online functionality of any kind.</b>
+	While this would be a cool feature, I believe it is well outside the scope.
+</p>
+
+<h3>Layout</h3>
 <p>
 	<img src = "/images/RLQ1stdraft.jpg" alt = "first draft sketch of RL Quest layout with objects in the top-left of the screen and journal in the centre." style = "width: 100%;">
 	In this draft we have the objective list in the top left with a scrollable list of currently available tasks/objectives.
 	At the bottom of the list we have a button for closing the program and a button for toggling the journal's visibility.
 	The items in the objective list are tasks within quests that don't have other tasks that must be done before them.
 </p>
+
+<h3>Example Users and Use Cases</h3><!-- be explicit -->
+
 <h2>Technical Specification</h2> <!-- From the coder's perspective. -->
