@@ -1,0 +1,41 @@
+---
+layout: default
+title: RL Quest
+---
+<!-- TODO: consider tabs for design doc, alpha, beta, etc. -->
+<!-- tab 1: project discussion/description including relearning functional/technical design document making -->
+<!-- tab 2: Functional Specification -->
+<!-- tab 3: Living Technical Specification -->
+<h2>Discussion</h2> <!-- thoughts, things I've learned -->
+<p>
+	For this project I want to take extra care to "do it right", to show my work, and, most importantly, actually finish it.
+	Time management, for me, has been something that I struggled with due to it being supremely difficult to optimize.
+	Put simply: if nothing was urgent I'd get stuck thinking about what to do instead of actually doing anything.
+	For games, however, this was rarely the case.
+	The quest logs in there always made it easy for me to know what I needed to do and when I needed to do it.
+	Thus I want to recreate that but for actually doing/making things instead of making virtual numbers get bigger.
+</p>
+<p>
+	The first step in the process is to sit down and write a good specification - a project map, if you will.
+	I had some experience from class projects during my computer science studies that told me that his was an important thing to do, but this knowledge was vague.
+	After a bit of research I came across the distinction between functional and technical specifications as design documents and their equal importance.
+	For functional specification I found <a href = "https://www.joelonsoftware.com/2000/10/02/painless-functional-specifications-part-1-why-bother/">Joel Spolsky's 4-part series</a> an interesting and entertaining read, especially because it explains a potential source for one of my greatest banes in the technical world: poorly made documentation.
+</p>
+<h2>Functional Specification</h2> <!-- From the user's perspective. -->
+<h3>Outline</h3>
+<p>
+	The main purpose of RLQuest is to make getting things done easier and more interesting on the desktop.
+	This is born of my own tendency towards feeling the need to always be doing the most optimal thing, or doing things in the most optimal way, and ending up in analysis paralysis.
+	My hope is that this will help others that find themselves in a similar situation.
+</p>
+<p>
+	One of the major design goals is find and use that which make quest trackers and journals in games easy to follow and make decisions about how to spend one's time in the game.
+	This includes making a simple list of objectives that are always on screen with a more detailed, but content obscuring, version of quests/tasks that can be shown or hidden as desired.
+</p>
+<p>
+	<img src = "/images/RLQ1stdraft.jpg" alt = "first draft sketch of RL Quest layout with objects in the top-left of the screen and journal in the centre." style = "width: 100%;">
+	In this draft we have the objective list in the top left with a scrollable list of currently available tasks/objectives.
+	At the bottom of the list we have a button for closing the program and a button for toggling the journal's visibility.
+	The items in the objective list are tasks within quests that don't have other tasks that must be done before them.
+</p>
+<h2>Technical Specification</h2> <!-- From the coder's perspective. -->
