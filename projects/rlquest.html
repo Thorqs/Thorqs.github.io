@@ -21,12 +21,18 @@ title: RLQuest
 	After a bit of research I came across the distinction between functional and technical specifications as design documents and their equal importance.
 	For functional specification I found <a href = "https://www.joelonsoftware.com/2000/10/02/painless-functional-specifications-part-1-why-bother/">Joel Spolsky's 4-part series</a> an interesting and entertaining read, especially because it also explains a potential source for one of my greatest banes in the technical world: poorly made documentation.
 </p>
+
 <h2>Functional Specification</h2> <!-- From the user's perspective. -->
 <h3>Outline</h3>
 <p>
 	The main purpose of RLQuest is to increase computer productivity by taking cues from quests in computer games.
 	This is born of my own tendency towards feeling the need to always be doing the most optimal thing, or doing things in the most optimal way, and ending up in analysis paralysis.
 	My hope is that this will help others that find themselves in a similar situation.
+</p>
+<p>
+	If this proves successful, I could foresee extending the project in a couple of ways.
+	One of which would be to make a quest log application to aid in coordination in table-top roleplaying game groups.
+	Another would be to make a smarter version of the program so that it becomes a sort of digital personal assistant rather than a better todo list.
 </p>
 <h4>Disclaimer</h4>
 <p>
@@ -50,8 +56,27 @@ title: RLQuest
 	<b>Automatic saving of objectives and journal.</b>
 	Users should not have to hit a button for their objectives to be saved.
 </p>
+<p>
+	<b>Only show objectives that can be worked on.</b>
+	Objectives will be able to depend on/be blocked by other objectives i.e. Users will be able to tell RLQuest that objective A must be completed before objective B thus B won't show up in the simple objective list until A has been marked done.
+</p>
+<p>
+	<b>User chooses which quest they wish to work on.</b>
+	The user will be able to go into their journal and select the quest they want to work on.
+	This could also be referred to as which quest is currently tracked.
+</p>
 
-<h3>Ungoals</h3>
+<h3>Stretch Goals</h3>
+<p>
+	<b>Provide suggestions for what to do next.</b>
+	Based on the premise that making a decision, even if it's not perfectly optimal, is better than making no decision at all.
+</p>
+<p>
+	<b>Make Quests sharable.</b>
+	It would be nice, although not a key feature, for people to be able to create a quest and give the file to another to, say, complement a step by step guide.
+</p>
+
+<h3>Un-goals</h3>
 <p>
 	<b>There are no plans for online functionality of any kind.</b>
 	While this would be a cool feature, I believe it is well outside the scope.
@@ -66,5 +91,10 @@ title: RLQuest
 </p>
 
 <h3>Example Users and Use Cases</h3><!-- be explicit -->
+<h4>Addy the Adolescent</h4>
+<p>
+	Addy has heaps of homework!
+	She wants to use RLQuest to get herself organized so she can get through it as quick as possible so she hang with her friends.
+</p>
 
 <h2>Technical Specification</h2> <!-- From the coder's perspective. -->
