@@ -51,6 +51,8 @@ title: RLQuest
 	RLQuest should be visible on top of whatever the user is doing.
 	It should not, however, get in the way.
 	This includes making a simple list of objectives that are always on screen with a more detailed, but content obscuring, version of quests/tasks that can be shown or hidden as desired.
+	It also includes being readable over top of whatever the user is doing which could be bright or dark.
+	White text with a small black outline should server this purpose well, although black text with a white outline should also work.
 </p>
 <p>
 	<b>Automatic saving of objectives and journal.</b>
@@ -98,3 +100,23 @@ title: RLQuest
 </p>
 
 <h2>Technical Specification</h2> <!-- From the coder's perspective. -->
+<h3>Tools</h3>
+<p>
+	<b><a href="https://godotengine.org/">Godot</a></b> will be the primary development environment.
+	Godot is designed to be a game engine but is capable of compiling programs to low-cpu mode - programs that only calculate new frames when something within the program has changed.
+	The default language used with Godot is its own GDScript, syntactically similar to Python, although direct extension and scripting with C++ is supported and native bindings exist for several other popular languages.
+	The core reasoning for this is that the graphical functionalities required are trivial to implement within Godot in a way that supports most popular platforms.
+	I will stick to GDScript until there is a reason not to.
+</p>
+
+<h3>Data Structures and Storage</h3>
+<p>
+	Saving data and program state requires the data structures representing state to be serializable in some form.
+	The main visual elements that change are the quests in the journal and the objectives in the quick objectives list.
+	The objectives in the list are based on the selected quest so will not need special saving/loading behaviour for display.
+	The journal will, on the back-end, hold an array of quests and it is this object that will need to be saved and serialized in some form.
+</p>
+<p>
+	The Quest object will have an array of Quests for required objectives as well as an array of Quests for items that depend on the Quest.
+	Quests will also have a name/title (String) and description (String).
+</p>
