@@ -100,6 +100,12 @@ title: RLQuest
 </p>
 
 <h2>Technical Specification</h2> <!-- From the coder's perspective. -->
+<h4>Disclaimer</h4>
+<p>
+	This document is not final; it may be changed and updated as the project evolves.
+	This document only seeks to cover the inner-workings of the program; outlining the functionality from a programmer's perspective.
+</p>
+
 <h3>Tools</h3>
 <p>
 	<b><a href="https://godotengine.org/">Godot</a></b> will be the primary development environment.
@@ -110,6 +116,9 @@ title: RLQuest
 </p>
 <p>
 	<b><a href="https://git-scm.com/">Git</a></b> and <b><a href="https://github.com/">Github</a></b> will be used for source and version control.
+	The use of version control with a remote repository is important both for the purposes of back-up but also for the purposes of reverting or undoing an update that breaks something.
+	It also prevents collaboration from being a logistical nightmare, should interest arise.
+	Finally, using a public repository allows for discoverability for the project.
 </p>
 
 <h3>Data Structures and Storage</h3>
@@ -122,4 +131,7 @@ title: RLQuest
 <p>
 	The Quest object will have an array of Quests for required objectives as well as an array of Quests for items that depend on the Quest.
 	Quests will also have a name/title (String) and description (String).
+	Because of the dependency arrays, the saving and loading mechanism will have to work in layers of the graph/tree and use graphical searching to ensure data is not duplicated.
+	This is especially important in the case where one Quest is on a lower layer than a Quest it depends on because it could lead to multiple layers being stored multiple times and, in the worst case, cause an unending loop for infinite storage requirements.
+	This would not be ideal.
 </p>
