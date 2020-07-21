@@ -2,7 +2,10 @@
 layout: default
 title: Quinn's Homepage
 ---
-<div class="blurb">
+<button class="tablink" onclick="openPage('Background', this)" id="defaultOpen">Background</button>
+<button class="tablink" onclick="openPage('Future', this)">Future Plans</button>
+
+<div id="Background" class = "tabcontent">
   <h1>Quinn Thorsnes</h1>
   <p>
 	Here you will find a more expanded electronic version of my CV.
@@ -188,6 +191,13 @@ title: Quinn's Homepage
       The main technique for this was each of us doing the same section of data and measuring the rate of agreement between us.
     </p>
   </div>
+</div>
+
+<div id="Future" class="tabcontent">
+	<p>
+		At this point I think that I want to be working in R&D as part of my mid-career.
+	</p>
+</div>
 
 <!--  <h2>Other Experiences</h2>
   <p>
@@ -196,6 +206,4 @@ title: Quinn's Homepage
     More information about my personal projects can be found on the projects page of this website.
   </p> -->
 
-  
-  
-</div><!-- /.blurb -->
+

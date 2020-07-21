@@ -1,7 +1,8 @@
-body
+body, html
 {
     background-color: #201810; /*#242424;*/
-    margin: 60px auto;
+    margin: 20px;
+		heigh: 100%;
     width: 80%;
 	/*background-image: url("/images/chalkboards.jpg");
 	background-position: center;
@@ -106,52 +107,6 @@ ul.posts li
     list-style: none;
 }
 
-/** Tree content shenanigans **/
-/* remove default bullets
-ul, #contentTree
-{
-	list-style-type: none;
-}
-
-/* Remove margins and padding from parent ul
-#contentTree
-{
-	margin: 0;
-	padding: 0;
-}
-
-.caret
-{
-	cursor: pointer;
-	user-select: none; /* prevent text selection 
-}
-
-.caret::before
-{
-	content: "\25B6";
-	color: white;
-	display: inline-block;
-	margin-right: 6px;
-}
-
-.caret-down::before
-{
-	transform: rotate(90deg);
-}
-
-.nested
-{
-	display: none;
-	/*max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.2s ease-out;
-}
-
-.active
-{
-	display: block;
-}*/
-
 /* Style button to open and close collapsible */
 .collapsible
 {
@@ -196,4 +151,30 @@ ul, #contentTree
   overflow: hidden;
   transition: max-height 0.2s ease-out;
   font-famly: 'Verdana', 'Arial', 'Sans-Serif'
+}
+
+/* Style tab links */
+.tablink
+{
+	background-color: #181818;
+	color: white;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 33%;
+}
+
+.tablink:hover
+{
+	background-color: #303030
+}
+
+.tabcontent
+{
+	display: none;
+	padding: 100px 20px;
+	height: 100%;
 }

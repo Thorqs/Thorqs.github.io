@@ -13,7 +13,7 @@
         <li><a href="https://github.com/sionth">Github</a></li>
       </ul>
       <ul>
-        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
         <!--<li><a href="/cv">CV</a></li>-->
         <li><a href="/projects">Projects</a></li>
       </ul>
@@ -27,28 +27,7 @@
   </body>
   
   <script>
-	/*var carets = document.getElementsByClassName("caret");
-	var car;
 	
-	for(car = 0; car < carets.length; car++)
-	{
-		carets[car].addEventsListener("click", function()
-		{
-			this.parentElement.querySelector(".nested").classList.toggle("active");
-			this.classList.toggle("caret-down");
-			/*mother = this.parentElement.querySelector(".nested");
-			if(mother.style.maxHeight)
-			{
-				mother.style.maxHeight = null;
-			}
-			else
-			{
-				mother.style.maxHeight = mother.scrollHeight +"px";
-			}*
-		});
-	}*/
-	
-
   var coll = document.getElementsByClassName("collapsible");
   var i;
 
@@ -68,5 +47,29 @@
       }
     });
   }
+	
+	function openPage(pageName, elmnt)
+	{
+		/* hide all elements with class = "tabcontent" by default */
+		var i, tabcontent, tablinks;
+		tabcontent = document.getElementsByClassName("tabcontent");
+		for (i = 0; i < tabcontent.length; i++)
+		{
+			tabcontent[i].style.display = "none";
+		}
+		
+		/* Remove the background color of all tablinks/buttons */
+		tablinks = document.getElementsByClassName("tablink");
+		for (i = 0; i < tablinks.length; i++)
+		{
+			tablinks[i].style.backgroundColor = "";
+		}
+		
+		/* Show the specific tab content */
+		document.getElementById(pageName).style.display = "block";
+	}
+	
+	/* Get the lement with id="defaultOpen" and click on it */
+	document.getElementById("defaultOpen").click();
   </script>
 </html>
