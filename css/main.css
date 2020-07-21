@@ -1,6 +1,6 @@
 body
 {
-    background-color: #242424;
+    background-color: #201810; /*#242424;*/
     margin: 60px auto;
     width: 80%;
 	/*background-image: url("/images/chalkboards.jpg");
@@ -60,6 +60,19 @@ h4
     font-size: 1.5em;
     font-family: 'Helvetica', 'Arial', 'Sans-Serif';
     color: #e8ce99
+}
+
+h5
+{
+    font-size: 1.25em;
+    font-family: 'Helvetica', 'Arial', 'Sans-Serif';
+    color: #805020
+}
+
+h1, h2, h3, h4, h5, h6
+{
+	/*line-height:1.45*/
+	margin: 0 0 0.25em 0;
 }
 
 p
@@ -142,7 +155,7 @@ ul, #contentTree
 /* Style button to open and close collapsible */
 .collapsible
 {
-	background-color: #242424;
+	background-color: #201810;
 	color: #efefef;
 	cursor: pointer;
 	padding: .5em;
@@ -178,7 +191,7 @@ ul, #contentTree
 .content
 {
   padding: 0 0.5em;
-  background-color: #242424;
+  background-color: #182010;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;

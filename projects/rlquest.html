@@ -5,7 +5,7 @@ title: RLQuest
 <!-- TODO: consider tabs for design doc, alpha, beta, etc. -->
 <!-- tab 1: project discussion/description including relearning functional/technical design document making -->
 <!-- tab 2: Functional Specification -->
-<!-- tab 3: Living Technical Specification -->
+<!-- tab 3: Living Technical Specification --><!-- may be easier/cleaner to copy style for top nav thing.. hm... -->
 <h2>Discussion</h2> <!-- thoughts, things I've learned -->
 <p>
 	For this project I want to take extra care to "do it right", to show my work, and, most importantly, actually finish it.
@@ -17,7 +17,7 @@ title: RLQuest
 </p>
 <p>
 	The first step in the process is to sit down and write a good specification - a project map, if you will.
-	I had some experience from class projects during my computer science studies that told me that his was an important thing to do, but this knowledge was vague.
+	I had some experience from class projects during my computer science studies that told me that this was an important thing to do, but this knowledge was vague.
 	After a bit of research I came across the distinction between functional and technical specifications as design documents and their equal importance.
 	For functional specification I found <a href = "https://www.joelonsoftware.com/2000/10/02/painless-functional-specifications-part-1-why-bother/">Joel Spolsky's 4-part series</a> an interesting and entertaining read, especially because it also explains a potential source for one of my greatest banes in the technical world: poorly made documentation.
 </p>
@@ -77,11 +77,24 @@ title: RLQuest
 	<b>Make Quests sharable.</b>
 	It would be nice, although not a key feature, for people to be able to create a quest and give the file to another to, say, complement a step by step guide.
 </p>
+<p>
+	<b>Add an animated personal assistant</b>
+	Having an animated personal assistant that acts as an interaction hub for the program is something that I think could greatly increase interaction with the application with some users.
+	Others may find it off-putting so, if implemented, it should be optional to use.
+	Would require a potentially substantial amount of extra work.
+</p>
+<p>
+	<b>Voice Control</b>
+	Some users may find the ability to control the program with their voice more appealing than through clicking.
+	The extra work required for this includes researching enough to estimate how hard it would be.
+	It could simply require thoughtful tooltip design to allow in-built screen readers to function or it could require research voice recognition engines.
+</p>
 
 <h3>Un-goals</h3>
 <p>
 	<b>There are no plans for online functionality of any kind.</b>
 	While this would be a cool feature, I believe it is well outside the scope.
+	Most of the benefits afforded by this could be achieved by manually sharing a quest file, anyway.
 </p>
 
 <h3>Layout</h3>
@@ -135,3 +148,4 @@ title: RLQuest
 	This is especially important in the case where one Quest is on a lower layer than a Quest it depends on because it could lead to multiple layers being stored multiple times and, in the worst case, cause an unending loop for infinite storage requirements.
 	This would not be ideal.
 </p>
+	<!-- object hierarchy within godot... stuff... -->
