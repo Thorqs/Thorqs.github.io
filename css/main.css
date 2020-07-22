@@ -1,9 +1,10 @@
 body, html
 {
     background-color: #201810; /*#242424;*/
-    margin: 20px;
-		heigh: 100%;
-    width: 80%;
+    /*margin: 20px;*/
+		height: 100%;
+    width: 95%%;
+		padding: 1%;
 	/*background-image: url("/images/chalkboards.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
@@ -113,7 +114,7 @@ ul.posts li
 	background-color: #201810;
 	color: #efefef;
 	cursor: pointer;
-	padding: .5em;
+	padding-bottom: 1em;
 	width: 100%;
 	border: none;
 	text-align: left;
