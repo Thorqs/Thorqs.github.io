@@ -3,149 +3,156 @@ layout: default
 title: RLQuest
 ---
 <!-- TODO: consider tabs for design doc, alpha, beta, etc. -->
-<!-- tab 1: project discussion/description including relearning functional/technical design document making -->
-<!-- tab 2: Functional Specification -->
-<!-- tab 3: Living Technical Specification --><!-- may be easier/cleaner to copy style for top nav thing.. hm... -->
-<h2>Discussion</h2> <!-- thoughts, things I've learned -->
-<p>
-	For this project I want to take extra care to "do it right", to show my work, and, most importantly, actually finish it.
-	Time management, for me, has been something that I struggled with due to it being supremely difficult to optimize.
-	Put simply: if nothing was urgent I'd get stuck thinking about what to do instead of actually doing anything.
-	For games, however, this was rarely the case.
-	The quest logs in there always made it easy for me to know what I needed to do and when I needed to do it.
-	Thus I want to recreate that but for actually doing/making things instead of making virtual numbers get bigger.
-</p>
-<p>
-	The first step in the process is to sit down and write a good specification - a project map, if you will.
-	I had some experience from class projects during my computer science studies that told me that this was an important thing to do, but this knowledge was vague.
-	After a bit of research I came across the distinction between functional and technical specifications as design documents and their equal importance.
-	For functional specification I found <a href = "https://www.joelonsoftware.com/2000/10/02/painless-functional-specifications-part-1-why-bother/">Joel Spolsky's 4-part series</a> an interesting and entertaining read, especially because it also explains a potential source for one of my greatest banes in the technical world: poorly made documentation.
-</p>
+<button class="tablink" onclick="openPage('Discussion', this)">Discussion</button>
+<button class="tablink" onclick="openPage('FuncSpec', this)" id="defaultOpen">Functional Specification</button>
+<button class="tablink" onclick="openPage('TechSpec', this)">Technical Specification</button>
 
-<h2>Functional Specification</h2> <!-- From the user's perspective. -->
-<h3>Outline</h3>
-<p>
-	The main purpose of RLQuest is to increase computer productivity by taking cues from quests in computer games.
-	This is born of my own tendency towards feeling the need to always be doing the most optimal thing, or doing things in the most optimal way, and ending up in analysis paralysis.
-	My hope is that this will help others that find themselves in a similar situation.
-</p>
-<p>
-	If this proves successful, I could foresee extending the project in a couple of ways.
-	One of which would be to make a quest log application to aid in coordination in table-top roleplaying game groups.
-	Another would be to make a smarter version of the program so that it becomes a sort of digital personal assistant rather than a better todo list.
-</p>
-<h4>Disclaimer</h4>
-<p>
-	This document is not final; it may be changed and updated as the project evolves.
-	This document will also not cover much, if any, of the inner workings of the program.
-	Instead, this will focus on functionality from the user's perspective.
-</p>
+<div id="Discussion" class="tabcontent">
+	<h2>Discussion</h2> <!-- thoughts, things I've learned -->
+	<p>
+		For this project I want to take extra care to "do it right", to show my work, and, most importantly, actually finish it.
+		Time management, for me, has been something that I struggled with due to it being supremely difficult to optimize.
+		Put simply: if nothing was urgent I'd get stuck thinking about what to do instead of actually doing anything.
+		For games, however, this was rarely the case.
+		The quest logs in there always made it easy for me to know what I needed to do and when I needed to do it.
+		Thus I want to recreate that but for actually doing/making things instead of making virtual numbers get bigger.
+	</p>
+	<p>
+		The first step in the process is to sit down and write a good specification - a project map, if you will.
+		I had some experience from class projects during my computer science studies that told me that this was an important thing to do, but this knowledge was vague.
+		After a bit of research I came across the distinction between functional and technical specifications as design documents and their equal importance.
+		For functional specification I found <a href = "https://www.joelonsoftware.com/2000/10/02/painless-functional-specifications-part-1-why-bother/">Joel Spolsky's 4-part series</a> an interesting and entertaining read, especially because it also explains a potential source for one of my greatest banes in the technical world: poorly made documentation.
+	</p>
+</div>
 
-<h3>Goals</h3> <!-- bold goal then explain - easy to skim as list but also justify - paragraph per goal-->
-<p>
-	<b>Reduce effects of analysis paralysis.</b>
-	RLQuest's core principle is find and use that which make quest trackers and journals in games easy to follow and make decisions about how to spend one's time in the game.
-</p>
-<p>
-	<b>Overlay onto the user's desktop.</b>
-	RLQuest should be visible on top of whatever the user is doing.
-	It should not, however, get in the way.
-	This includes making a simple list of objectives that are always on screen with a more detailed, but content obscuring, version of quests/tasks that can be shown or hidden as desired.
-	It also includes being readable over top of whatever the user is doing which could be bright or dark.
-	White text with a small black outline should server this purpose well, although black text with a white outline should also work.
-</p>
-<p>
-	<b>Automatic saving of objectives and journal.</b>
-	Users should not have to hit a button for their objectives to be saved.
-</p>
-<p>
-	<b>Only show objectives that can be worked on.</b>
-	Objectives will be able to depend on/be blocked by other objectives i.e. Users will be able to tell RLQuest that objective A must be completed before objective B thus B won't show up in the simple objective list until A has been marked done.
-</p>
-<p>
-	<b>User chooses which quest they wish to work on.</b>
-	The user will be able to go into their journal and select the quest they want to work on.
-	This could also be referred to as which quest is currently tracked.
-</p>
+<div id = "FuncSpec" class="tabcontent">
+<!--<h2>Functional Specification</h2> <!-- From the user's perspective. -->
+	<h3>Outline</h3>
+	<p>
+		The main purpose of RLQuest is to increase computer productivity by taking cues from quests in computer games.
+		This is born of my own tendency towards feeling the need to always be doing the most optimal thing, or doing things in the most optimal way, and ending up in analysis paralysis.
+		My hope is that this will help others that find themselves in a similar situation.
+	</p>
+	<p>
+		If this proves successful, I could foresee extending the project in a couple of ways.
+		One of which would be to make a quest log application to aid in coordination in table-top roleplaying game groups.
+		Another would be to make a smarter version of the program so that it becomes a sort of digital personal assistant rather than a better todo list.
+	</p>
+	<h4>Disclaimer</h4>
+	<p>
+		This document is not final; it may be changed and updated as the project evolves.
+		This document will also not cover much, if any, of the inner workings of the program.
+		Instead, this will focus on functionality from the user's perspective.
+	</p>
 
-<h3>Stretch Goals</h3>
-<p>
-	<b>Provide suggestions for what to do next.</b>
-	Based on the premise that making a decision, even if it's not perfectly optimal, is better than making no decision at all.
-</p>
-<p>
-	<b>Make Quests sharable.</b>
-	It would be nice, although not a key feature, for people to be able to create a quest and give the file to another to, say, complement a step by step guide.
-</p>
-<p>
-	<b>Add an animated personal assistant</b>
-	Having an animated personal assistant that acts as an interaction hub for the program is something that I think could greatly increase interaction with the application with some users.
-	Others may find it off-putting so, if implemented, it should be optional to use.
-	Would require a potentially substantial amount of extra work.
-</p>
-<p>
-	<b>Voice Control</b>
-	Some users may find the ability to control the program with their voice more appealing than through clicking.
-	The extra work required for this includes researching enough to estimate how hard it would be.
-	It could simply require thoughtful tooltip design to allow in-built screen readers to function or it could require research voice recognition engines.
-</p>
+	<h3>Goals</h3> <!-- bold goal then explain - easy to skim as list but also justify - paragraph per goal-->
+	<p>
+		<b>Reduce effects of analysis paralysis.</b>
+		RLQuest's core principle is find and use that which make quest trackers and journals in games easy to follow and make decisions about how to spend one's time in the game.
+	</p>
+	<p>
+		<b>Overlay onto the user's desktop.</b>
+		RLQuest should be visible on top of whatever the user is doing.
+		It should not, however, get in the way.
+		This includes making a simple list of objectives that are always on screen with a more detailed, but content obscuring, version of quests/tasks that can be shown or hidden as desired.
+		It also includes being readable over top of whatever the user is doing which could be bright or dark.
+		White text with a small black outline should server this purpose well, although black text with a white outline should also work.
+	</p>
+	<p>
+		<b>Automatic saving of objectives and journal.</b>
+		Users should not have to hit a button for their objectives to be saved.
+	</p>
+	<p>
+		<b>Only show objectives that can be worked on.</b>
+		Objectives will be able to depend on/be blocked by other objectives i.e. Users will be able to tell RLQuest that objective A must be completed before objective B thus B won't show up in the simple objective list until A has been marked done.
+	</p>
+	<p>
+		<b>User chooses which quest they wish to work on.</b>
+		The user will be able to go into their journal and select the quest they want to work on.
+		This could also be referred to as which quest is currently tracked.
+	</p>
 
-<h3>Un-goals</h3>
-<p>
-	<b>There are no plans for online functionality of any kind.</b>
-	While this would be a cool feature, I believe it is well outside the scope.
-	Most of the benefits afforded by this could be achieved by manually sharing a quest file, anyway.
-</p>
+	<h3>Stretch Goals</h3>
+	<p>
+		<b>Provide suggestions for what to do next.</b>
+		Based on the premise that making a decision, even if it's not perfectly optimal, is better than making no decision at all.
+	</p>
+	<p>
+		<b>Make Quests sharable.</b>
+		It would be nice, although not a key feature, for people to be able to create a quest and give the file to another to, say, complement a step by step guide.
+	</p>
+	<p>
+		<b>Add an animated personal assistant</b>
+		Having an animated personal assistant that acts as an interaction hub for the program is something that I think could greatly increase interaction with the application with some users.
+		Others may find it off-putting so, if implemented, it should be optional to use.
+		Would require a potentially substantial amount of extra work.
+	</p>
+	<p>
+		<b>Voice Control</b>
+		Some users may find the ability to control the program with their voice more appealing than through clicking.
+		The extra work required for this includes researching enough to estimate how hard it would be.
+		It could simply require thoughtful tooltip design to allow in-built screen readers to function or it could require research voice recognition engines.
+	</p>
 
-<h3>Layout</h3>
-<p>
-	<img src = "/images/RLQ1stdraft.jpg" alt = "first draft sketch of RL Quest layout with objects in the top-left of the screen and journal in the centre." style = "width: 100%;">
-	In this draft we have the objective list in the top left with a scrollable list of currently available tasks/objectives.
-	At the bottom of the list we have a button for closing the program and a button for toggling the journal's visibility.
-	The items in the objective list are tasks within quests that don't have other tasks that must be done before them.
-</p>
+	<h3>Un-goals</h3>
+	<p>
+		<b>There are no plans for online functionality of any kind.</b>
+		While this would be a cool feature, I believe it is well outside the scope.
+		Most of the benefits afforded by this could be achieved by manually sharing a quest file, anyway.
+	</p>
 
-<h3>Example Users and Use Cases</h3><!-- be explicit -->
-<h4>Addy the Adolescent</h4>
-<p>
-	Addy has heaps of homework!
-	She wants to use RLQuest to get herself organized so she can get through it as quick as possible so she hang with her friends.
-</p>
+	<h3>Layout</h3>
+	<p>
+		<img src = "/images/RLQ1stdraft.jpg" alt = "first draft sketch of RL Quest layout with objects in the top-left of the screen and journal in the centre." style = "width: 100%;">
+		In this draft we have the objective list in the top left with a scrollable list of currently available tasks/objectives.
+		At the bottom of the list we have a button for closing the program and a button for toggling the journal's visibility.
+		The items in the objective list are tasks within quests that don't have other tasks that must be done before them.
+	</p>
 
-<h2>Technical Specification</h2> <!-- From the coder's perspective. -->
-<h4>Disclaimer</h4>
-<p>
-	This document is not final; it may be changed and updated as the project evolves.
-	This document only seeks to cover the inner-workings of the program; outlining the functionality from a programmer's perspective.
-</p>
+	<h3>Example Users and Use Cases</h3><!-- be explicit -->
+	<h4>Addy the Adolescent</h4>
+	<p>
+		Addy has heaps of homework!
+		She wants to use RLQuest to get herself organized so she can get through it as quick as possible so she hang with her friends.
+	</p>
+</div>
 
-<h3>Tools</h3>
-<p>
-	<b><a href="https://godotengine.org/">Godot</a></b> will be the primary development environment.
-	Godot is designed to be a game engine but is capable of compiling programs to low-cpu mode - programs that only calculate new frames when something within the program has changed.
-	The default language used with Godot is its own GDScript, syntactically similar to Python, although direct extension and scripting with C++ is supported and native bindings exist for several other popular languages.
-	The core reasoning for this is that the graphical functionalities required are trivial to implement within Godot in a way that supports most popular platforms.
-	I will stick to GDScript until there is a reason not to.
-</p>
-<p>
-	<b><a href="https://git-scm.com/">Git</a></b> and <b><a href="https://github.com/">Github</a></b> will be used for source and version control.
-	The use of version control with a remote repository is important both for the purposes of back-up but also for the purposes of reverting or undoing an update that breaks something.
-	It also prevents collaboration from being a logistical nightmare, should interest arise.
-	Finally, using a public repository allows for discoverability for the project.
-</p>
+<div id = "TechSpec" class="tabcontent">
+	<!--<h2>Technical Specification</h2> <!-- From the coder's perspective. -->
+	<h4>Disclaimer</h4>
+	<p>
+		This document is not final; it may be changed and updated as the project evolves.
+		This document only seeks to cover the inner-workings of the program; outlining the functionality from a programmer's perspective.
+	</p>
 
-<h3>Data Structures and Storage</h3>
-<p>
-	Saving data and program state requires the data structures representing state to be serializable in some form.
-	The main visual elements that change are the quests in the journal and the objectives in the quick objectives list.
-	The objectives in the list are based on the selected quest so will not need special saving/loading behaviour for display.
-	The journal will, on the back-end, hold an array of quests and it is this object that will need to be saved and serialized in some form.
-</p>
-<p>
-	The Quest object will have an array of Quests for required objectives as well as an array of Quests for items that depend on the Quest.
-	Quests will also have a name/title (String) and description (String).
-	Because of the dependency arrays, the saving and loading mechanism will have to work in layers of the graph/tree and use graphical searching to ensure data is not duplicated.
-	This is especially important in the case where one Quest is on a lower layer than a Quest it depends on because it could lead to multiple layers being stored multiple times and, in the worst case, cause an unending loop for infinite storage requirements.
-	This would not be ideal.
-</p>
+	<h3>Tools</h3>
+	<p>
+		<b><a href="https://godotengine.org/">Godot</a></b> will be the primary development environment.
+		Godot is designed to be a game engine but is capable of compiling programs to low-cpu mode - programs that only calculate new frames when something within the program has changed.
+		The default language used with Godot is its own GDScript, syntactically similar to Python, although direct extension and scripting with C++ is supported and native bindings exist for several other popular languages.
+		The core reasoning for this is that the graphical functionalities required are trivial to implement within Godot in a way that supports most popular platforms.
+		I will stick to GDScript until there is a reason not to.
+	</p>
+	<p>
+		<b><a href="https://git-scm.com/">Git</a></b> and <b><a href="https://github.com/">Github</a></b> will be used for source and version control.
+		The use of version control with a remote repository is important both for the purposes of back-up but also for the purposes of reverting or undoing an update that breaks something.
+		It also prevents collaboration from being a logistical nightmare, should interest arise.
+		Finally, using a public repository allows for discoverability for the project.
+	</p>
+
+	<h3>Data Structures and Storage</h3>
+	<p>
+		Saving data and program state requires the data structures representing state to be serializable in some form.
+		The main visual elements that change are the quests in the journal and the objectives in the quick objectives list.
+		The objectives in the list are based on the selected quest so will not need special saving/loading behaviour for display.
+		The journal will, on the back-end, hold an array of quests and it is this object that will need to be saved and serialized in some form.
+	</p>
+	<p>
+		The Quest object will have an array of Quests for required objectives as well as an array of Quests for items that depend on the Quest.
+		Quests will also have a name/title (String) and description (String).
+		Because of the dependency arrays, the saving and loading mechanism will have to work in layers of the graph/tree and use graphical searching to ensure data is not duplicated.
+		This is especially important in the case where one Quest is on a lower layer than a Quest it depends on because it could lead to multiple layers being stored multiple times and, in the worst case, cause an unending loop for infinite storage requirements.
+		This would not be ideal.
+	</p>
+</div>
 	<!-- object hierarchy within godot... stuff... -->
