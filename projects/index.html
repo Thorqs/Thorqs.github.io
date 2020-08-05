@@ -3,85 +3,76 @@ layout: default
 title: Quinn's Projects
 ---
 <h2>Games</h2>
-<button type = "button" class = "collapsible">
-	<b>Mutas</b>:
-	The modular, setting agnostic, tabletop role-playing game.
-</button>
-<div class = "content">
-	<!-- ultimate in technical writing as it is one giant functional specification -> putting what I've learned to use -->
-	<p>
-		Mutas is a tabletop role-playing game of my own devising based on my experiences in what does and doesn't work and what does and doesn't exist on the market.
-		One of my goals with this project, in addition to making a game I would like to play, is to make a game that can have its depth of mechanics varied and thus be somewhat modular.
-	</p>
-	<p>
-		I am designing it such that players can make it complex or simple in the ways that are interesting to them.
-		Admittedly, this does mean designing the some of the sub-systems multiple times, but that is part of the charm.
-		It also means that I don't have decide on a single correct way because players can choose their own version of correctness.
-		I, instead, present the simplest version of the rules as basic and list others later as optional replacements for more depth etc.
-	</p>
-</div>
+<h3>Mutas: The modular, setting agnostic, tabletop role-playing game.</h3>
+<!-- ultimate in technical writing as it is one giant functional specification -> putting what I've learned to use -->
+<p>
+	Mutas is a tabletop role-playing game of my own devising based on my experiences in what does and doesn't work and what does and doesn't exist on the market.
+	One of my goals with this project, in addition to making a game I would like to play, is to make a game that can have its depth of mechanics varied and thus be somewhat modular.
+</p>
+<p>
+	I am designing it such that players can make it complex or simple in the ways that are interesting to them.
+	Admittedly, this does mean designing the some of the sub-systems multiple times, but that is part of the charm.
+	It also means that I don't have decide on a single correct way because players can choose their own version of correctness.
+	I, instead, present the simplest version of the rules as basic and list others later as optional replacements for more depth etc.
+</p>
 
-<button type = "button" class = "collapsible">
-	<div style = "float: left;"><b>Computer Game Design Class Project</b><br>University of Otago</div>
-	<div style = "float: right;" align = "right"><b>January 2019 - February 2019</b><br>Dunedin, NZ</div>
-</button>
+<h3>Alchemaster</h3>
+<!--<br>University of Otago</h4>
+<h3 style = "float: right;" align = "right"><b>January 2019 - February 2019</b><br>Dunedin, NZ</h4>
+</button>-->
 <!-- TODO: move summary out, add more details -->
-<div class = "content">
-	<h4>Summary</h4>
-	<ul>
-		<li>Worked with 2 other students to create a short tower defence game.</li>
-		<li>Implemented Dijkstra/Flow maps for efficient path-finding</li>
-		<li>Designed and revised the project's User Interface</li>
-	</ul>
-	<p>
-		This was a project I worked on with two others over the course of 5 weeks.
-		I have preserved the initial form of it <a href = "/projects/Alchemaster/">here</a> but you should also be able to view it on the course website <a href = "http://www.cs.otago.ac.nz/cosc360/game-projects-alchemaster.php">here</a>.
-		Because the other two members of the group were proficient in different kinds of art I was one of the main programmers for the project.
-		In particular I took responsibility for the behaviour of the enemies in the game with the pathfinding being easily one of the most interesting aspects.
-		I also took partial responsibility for the User Interface design as I was the member of the group most experienced with the genre of game we were creating - tower defence - which also meant that I naturally was given partial responsibility for checking the balance of the game.
-	</p>
-	<p>
-		The path-finding was interesting because the technique we had learned for path-finding was among the best for a low number of actors, especially when destinations needed to be recalculated frequently.
-		This method, the A* method, has each actor probe possible moves, preferring the shortest path towards the target that it has thus far explored.
-		I knew that we would have many many actors on the screen at once, meaning that any way to reduce their need to think would be greatly valuable.
-		Further, our game had player-created mazes being constructed while enemies were moving towards a static goal location.
-		The long mazes meant that there was a long path to calculate.
-	</p>
-	<p>
-		The solution I arrived at, after discussing the project with a friend with greater experience in the field, was to use flow maps.
-		In this case the map itself calculates the distance a given tile is from the goal.
-		The downside is that the entirety of the map must be explored to determine its distance from the goal, but the upside is that this only needs to happen once per update.
-		For enemies this is much faster since they simply need to look at the tiles adjacent to them and move towards the one with the lowest distance to the goal.
-		An additional advantage to this technique is that it enabled us to tell if there were areas of the map that were blocked off thus impossible to navigate from.
-		This allowed us to prevent actions that would cause this situation.
-	</p>
-</div>
+<h4>Summary</h4>
+<ul>
+	<li>Worked with 2 other students to create a short tower defence game.</li>
+	<li>Implemented Dijkstra/Flow maps for efficient path-finding</li>
+	<li>Designed and revised the project's User Interface</li>
+</ul>
+<p>
+	This was a project I worked on with two others over the course of 5 weeks.
+	I have preserved the initial form of it <a href = "/projects/Alchemaster/">here</a> but you should also be able to view it on the course website <a href = "http://www.cs.otago.ac.nz/cosc360/game-projects-alchemaster.php">here</a>.
+	Because the other two members of the group were proficient in different kinds of art I was one of the main programmers for the project.
+	In particular I took responsibility for the behaviour of the enemies in the game with the pathfinding being easily one of the most interesting aspects.
+	I also took partial responsibility for the User Interface design as I was the member of the group most experienced with the genre of game we were creating - tower defence - which also meant that I naturally was given partial responsibility for checking the balance of the game.
+</p>
+<p>
+	The path-finding was interesting because the technique we had learned for path-finding was among the best for a low number of actors, especially when destinations needed to be recalculated frequently.
+	This method, the A* method, has each actor probe possible moves, preferring the shortest path towards the target that it has thus far explored.
+	I knew that we would have many many actors on the screen at once, meaning that any way to reduce their need to think would be greatly valuable.
+	Further, our game had player-created mazes being constructed while enemies were moving towards a static goal location.
+	The long mazes meant that there was a long path to calculate.
+</p>
+<p>
+	The solution I arrived at, after discussing the project with a friend with greater experience in the field, was to use flow maps.
+	In this case the map itself calculates the distance a given tile is from the goal.
+	The downside is that the entirety of the map must be explored to determine its distance from the goal, but the upside is that this only needs to happen once per update.
+	For enemies this is much faster since they simply need to look at the tiles adjacent to them and move towards the one with the lowest distance to the goal.
+	An additional advantage to this technique is that it enabled us to tell if there were areas of the map that were blocked off thus impossible to navigate from.
+	This allowed us to prevent actions that would cause this situation.
+</p>
 
 <h2>Software</h2>
-<button type = "button" class = "collapsible">
-	<b>RLQuest:</b>
-	a game-like desktop overlay for productivity
-</button>
-<div class = "content">
-	<p>
-		The goal of this project is to use ideas from quest-tracking in computer games to make a desktop overlay to improve productivity on the computer.
-		<a href = "rlquest.html">Living design document and discussion.</a>
-	</p>
-</div>
-<button type = "button" class = "collapsible">
-	<div style = "float: left;"><b>Software Engineering Class Project</b><br>University of Otago</div>
+<h3>RLQuest: a game-like desktop overlay for productivity</h3>
+<p>
+	The goal of this project is to use ideas from quest-tracking in computer games to make a desktop overlay to improve productivity on the computer.
+	<a href = "rlquest.html">Living design document and discussion.</a>
+</p>
+
+<h3>Software Engineering Class Project(s)</h3>
+<!--<br>University of Otago</div>
 	<div style = "float: right;" align = "right"><b>February 2018 - November 2018</b><br>Dunedin, NZ</div>
-</button>
+</button>-->
 <!-- TODO: move summary out, add more details-->
-<div class = "content">
-	<h4>Summary</h4>
-	<ul>
-		<li>Collaborated with a total of 3 other students to create 2 mobile applications designed with disability support in mind</li>
-		<li>Performed User Interface testing for the second application</li>
-	</ul>
-</div>
+<h4>Summary</h4>
+<ul>
+	<li>Collaborated with a total of 3 other students to create 2 mobile applications designed with disability support in mind</li>
+	<li>Performed User Interface testing for the second application</li>
+</ul>
 	
 <h2>Woodworking</h2>
+<p>
+	Please click on the names of the projects to expand them.
+	This is done, for now, to ensure that the text associated with the projects stay with the projects themselves.
+</p>
 <button type = "button" class = "collapsible"><b>Guitar Stand</b></button>
 <div class = "content">
 	<img src = "/images/guitar_stand.jpg" alt = "My custom guitar stand." style = "width: 40%; float: left;">
