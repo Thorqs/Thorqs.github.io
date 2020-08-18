@@ -3,6 +3,7 @@ layout: default
 title: Quinn's Homepage
 ---
 <button class="tablink" onclick="openPage('Background', this)" id="defaultOpen">Background</button>
+<button class="tablink" onclick="openPage('Current', this)">Current Situation</button>
 <!--<button class="tablink" onclick="openPage('Future', this)">Future Plans</button>-->
 <!--TODO: Skills and interests tab -->
 
@@ -11,7 +12,12 @@ title: Quinn's Homepage
 	<h5 style = "float: left; width: 60%;"><b>Diploma for Graduates: Computer Science</b><br>University of Otago</h5>
 	<h5 style = "float: right; width: 40%;" align = "right">May 2019<br>Dunedin, NZ</h5>
 	<p>
-		This programme was designed to provide students with the functional equivalent of a major in computer science.
+		This programme was designed to provide students that had already completed an undergraduate degree with the functional equivalent of a major in computer science.
+		The programme took place over the course of just over a year; two summer semesters, a spring semester, and a fall semester.
+		Personal highlights of the programme, for me, were the artificial intelligence paper that went over various common applications of machine learning and the game development and software engineering papers where I was able to learn more about the product development life-cycle.
+	</p>
+	<p>
+		I think learning about the project development lifecycle, especially the advantages and disadvantages of various common approaches, was especially useful for me because this was not something I had formally engaged with since high school.
 	</p>
   <button type = "button" class = "collapsible">Further Information</button>
 	<div class = "content">
@@ -26,7 +32,12 @@ title: Quinn's Homepage
 	<h5 style = "float: right; width: 40%;" align = "right">December 2017<br>Eugene, Oregon, USA</h5>
 	<p>
 		This masters program was designed with the goal of getting science graduates prepared for working in industry.
-		They tried to do this by teaching skills desired by those in industry and the final portion of this took the form of a 9 month internship in place of a thesis.
+		They tried to do this by teaching skills desired by those in industry and, in place of a thesis, three reports over the course of a nine-month internship.
+	</p>
+	<p>
+		In my case I managed to organise a fixed-term research assistantship at the University of Otago in one of their quantum optics research groups.
+		Details about this can be found later on this page.
+		One of the key skills I developed here, in addition to learning various new technologies, was keeping intellectual property concerns in mind while writing my reports back to University of Oregon about what I was working on.
 	</p>
 	<button type = "button" class = "collapsible">Further Information	</button>
 	<div class = "content">
@@ -67,14 +78,20 @@ title: Quinn's Homepage
 	</div>
   
   <h2>Professional Experience</h2>
-
 	<h5 style = "float: left; width: 60%;"><b>Electronics Workshop Work Experience</b><br>University of Otago</h5>
   <h5 style = "float: right; width: 40%;" align = "right"><b>February - April, June - July 2020</b><br>Dunedin, NZ</h5>	
   <p>
 	  Here I was able to obtain work-experience with electronics while a new electronics technician was sought.
-		The majority of this work took the form of soldering various components to printed circuit boards.
-		I also worked with one client to create an automatic shut-off plug controlled by an arduino microcontroller polling two temperature sensors.
+		My tasks included populating printed circuit boards with emphasis being on consistency, taking inventory for upcoming orders, and working with a client to determine their exact requirement for their custom hardware which I was then responsible for constructing.
   </p>
+	<p>
+		This latter responsibility was one that I found particular interesting because I got the opportunity to work with Arduino and learn about some of its quirks.
+		In this specific instance we needed to have analogue temperature sensors as far as feasible from a power supply box.
+		The sensors, in this case, output a signal in tens of millivolts increasing linearly with temperature.
+		The issue that I ran into was that the Arduino Duo measures voltage via a capacitor and the initial length of the cable, combined with the low signal amplitude, made the Arduino give faulty readings.
+		The cable itself was acting as enough of a capacitor to offset the readings.
+		The solution, therefore, was to reduce the length of the cable, which was simple enough.
+	</p>
 	
 	<h5 style = "float: left; width: 60%"><b>Physics Laboratory Demonstrator</b><br>University of Otago</h5>
   <h5 style = "float: right; width: 40%" align = "right"><b>March 2020 - June 2020</b><br>Dunedin, NZ</h5>
@@ -151,6 +168,26 @@ title: Quinn's Homepage
   </div>
 </div>
 
+<div id="Current" class = "tabcontent">
+	<div style="float: left; width: 50%;">
+		<h2 align ="center">What I'm good at</h2>
+		<ul>
+			<li>Spatial Reasoning</li>
+			<li>Critical Thinking</li>
+			<li>Cooking</li>
+			<li>Knitting</li>
+		</ul>
+	</div>
+	<div style="float: right; width: 50%;">
+		<h2 align = "center">What I want to work on</h2>
+		<ul>
+			<li>"Selling myself" and having the appropriate level of confidence in my abilities.</li>
+			<li>Analysis Paralysis/overthinking</li>
+			<li>Finishing more projects</li>
+		</ul>
+	</div>
+</div>
+
 <div id="Future" class="tabcontent">
 	<p>
 		At this point I think that I want to be working in R&D as part of my mid-career.
@@ -163,5 +200,3 @@ title: Quinn's Homepage
     Many of these are projects in which I worked with others towards a final goal.
     More information about my personal projects can be found on the projects page of this website.
   </p> -->
-
-
