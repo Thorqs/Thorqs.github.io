@@ -1,6 +1,6 @@
 body, html
 {
-    background-color: #201810; /*#242424;*/
+    background-color: #1a1a1a;
     /*margin: 20px;*/
 		height: 100%;
     width: 95%%;
@@ -111,7 +111,7 @@ ul.posts li
 /* Style button to open and close collapsible */
 .collapsible
 {
-	background-color: #201810;
+	background-color: #1a1a1a;
 	color: #efefef;
 	cursor: pointer;
 	padding-bottom: 1em;
@@ -147,7 +147,7 @@ ul.posts li
 .content
 {
   padding: 0 0.5em;
-  background-color: #182010;
+  background-color: #333333;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -157,7 +157,7 @@ ul.posts li
 /* Style tab links */
 .tablink
 {
-	background-color: #181818;
+	background-color: #333333;
 	color: white;
 	float: left;
 	border: none;
@@ -166,11 +166,12 @@ ul.posts li
 	padding: 14px 16px;
 	font-size: 17px;
 	width: 33%;
+	border-radius: 0.5em 0.5em 0 0; /*TL TR BR BL */
 }
 
 .tablink:hover
 {
-	background-color: #303030
+	background-color: #4d4d4d;
 }
 
 .tabcontent
