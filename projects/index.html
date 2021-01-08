@@ -2,125 +2,141 @@
 layout: default
 title: Quinn's Projects
 ---
-<h2>Games</h2>
-<h3>The Choice Engine: A modular, setting agnostic, tabletop role-playing game.</h3>
-<!-- ultimate in technical writing as it is one giant functional specification -> putting what I've learned to use -->
-<p>
-	The Choice Engine is a tabletop role-playing game rule set of my own devising based on my experiences in the hobby and my knowledge of the current market.
-	The modularity I am referring to is partly that I am designing it with multiple settings in mind, but I also want it to be very extendable and easily modified.
-	In some cases this means designing sub-systems multiple times with various levels of complexity such that players can choose for themselves the balance between simulationist rules and narrative driven gameplay that they think most fun.
-	Letting players choose which combination of rules also means that I don't have decide on a single correct way that the game should be played.
-	To this end I aim to present the simplest set of rules as the "basic rules" and include alternatives as "alternate" and "advanced rules".
-</p>
-<p>
-	In addition to satisfying my own desires in the hobby, this project allows me to tackle what is a surprisingly challenging task from a writing perspective.
-	Rulebooks, much like textbooks, serve multiple roles as both documents used for learning as well as for quick reference in times of uncertainty.
-	A well made rulebook, again like a textbook, should also be engaging to read instead of painful.
-	For me, this presents a fun challenge.
-</P>
 
-<h3>Alchemaster</h3>
-<!--<br>University of Otago</h4>
-<h3 style = "float: right;" align = "right"><b>January 2019 - February 2019</b><br>Dunedin, NZ</h4>
-</button>-->
-<!-- TODO: move summary out, add more details -->
-<h4>Summary</h4>
-<ul>
-	<li>Worked with 2 other students to create a short tower defence game.</li>
-	<li>Implemented Dijkstra/Flow maps for efficient path-finding</li>
-	<li>Designed and revised the project's User Interface</li>
-</ul>
-<p>
-	This was a project I worked on with two others over the course of 5 weeks.
-	I have preserved the initial form of it <a href = "/projects/Alchemaster/">here</a> but you should also be able to view it on the course website <a href = "http://www.cs.otago.ac.nz/cosc360/game-projects-alchemaster.php">here</a>.
-	Because the other two members of the group were proficient in different kinds of art I was one of the main programmers for the project.
-	In particular I took responsibility for the behaviour of the enemies in the game with the pathfinding being easily one of the most interesting aspects.
-	I also took partial responsibility for the User Interface design as I was the member of the group most experienced with the genre of game we were creating - tower defence - which also meant that I naturally was given partial responsibility for checking the balance of the game.
-</p>
-<p>
-	The path-finding was interesting because the technique we had learned for path-finding was among the best for a low number of actors, especially when destinations needed to be recalculated frequently.
-	This method, the A* method, has each actor probe possible moves, preferring the shortest path towards the target that it has thus far explored.
-	I knew that we would have many many actors on the screen at once, meaning that any way to reduce their need to think would be greatly valuable.
-	Further, our game had player-created mazes being constructed while enemies were moving towards a static goal location.
-	The long mazes meant that there was a long path to calculate.
-</p>
-<p>
-	The solution I arrived at, after discussing the project with a friend with greater experience in the field, was to use flow maps.
-	In this case the map itself calculates the distance a given tile is from the goal.
-	The downside is that the entirety of the map must be explored to determine its distance from the goal, but the upside is that this only needs to happen once per update.
-	For enemies this is much faster since they simply need to look at the tiles adjacent to them and move towards the one with the lowest distance to the goal.
-	An additional advantage to this technique is that it enabled us to tell if there were areas of the map that were blocked off thus impossible to navigate from.
-	This allowed us to prevent actions that would cause this situation.
-</p>
+<button class="tablink" onclick="openPage('Past', this)">Completed</button>
+<button class="tablink" onclick="openPage('Present', this)" id="defaultOpen">Current</button>
+<!--<button class="tablink" onclick="openPage('Future', this)">Future Plans</button>-->
+<!--TODO: Skills and interests tab -->
 
-<h2>Software</h2>
-<h3>RLQuest: a game-like desktop overlay for productivity</h3>
-<p>
-	The goal of this project is to use ideas from quest-tracking in computer games to make a desktop overlay to improve productivity on the computer.
-	<a href = "rlquest.html">Living design document and discussion.</a>
-</p>
-
-<h3>Software Engineering Class Project(s)</h3>
-<!--<br>University of Otago</div>
-	<div style = "float: right;" align = "right"><b>February 2018 - November 2018</b><br>Dunedin, NZ</div>
-</button>-->
-<!-- TODO: move summary out, add more details-->
-<h4>Summary</h4>
-<ul>
-	<li>Collaborated with a total of 3 other students to create 2 mobile applications designed with disability support in mind</li>
-	<li>Performed User Interface testing for the second application</li>
-</ul>
+<div id="Present" class = "tabcontent">
+	<h2>Games</h2>
+	<h3>The Choice Engine</h3>
+	<h3 style = "float: right;" align = "right">September 2019 - Current</h3>
+	<!--<h4>A modular, setting agnostic, tabletop role-playing game.</h4>-->
+	<!-- ultimate in technical writing as it is one giant functional specification -> putting what I've learned to use -->
+	<p>
+		The Choice Engine is a tabletop role-playing game rule set of my own devising based on my experiences in the hobby and my knowledge of the current market.
+		The modularity I am referring to is partly that I am designing it with multiple settings in mind, but I also want it to be very extendable and easily modified.
+		In some cases this means designing sub-systems multiple times with various levels of complexity such that players can choose for themselves the balance between simulationist rules and narrative driven gameplay that they think most fun.
+		Letting players choose which combination of rules also means that I don't have decide on a single correct way that the game should be played.
+		To this end I aim to present the simplest set of rules as the "basic rules" and include alternatives as "alternate" and "advanced rules".
+	</p>
+	<p>
+		In addition to satisfying my own desires in the hobby, this project allows me to tackle what is a surprisingly challenging task from a writing perspective.
+		Rulebooks, much like textbooks, serve multiple roles as both documents used for learning as well as for quick reference in times of uncertainty.
+		A well made rulebook, again like a textbook, should also be engaging to read instead of painful.
+		For me, this presents a fun challenge.
+	</p>
 	
-<h2>Woodworking</h2>
-<p>
-	My pretty and elaborate woodworking projects can be seen below in their own sections that may be expanded.
-	This is done, for now, to ensure that the text associated with the projects stay with the projects themselves.
-	I do have experience with more rough and ready woodworking, though, in more recent times in the form of helping my father with home-renovations.
-</p>
-<p>
-	The renovations were for replacing rotted wood in our shed and otherwise reinforcing it.
-	One example where we needed to think a bit was that one of the beams we cut rot out of was not cut square due to difficulty of access so we then had to estimate the angle  it was off by so that we could wedge the fresh piece in.
-</p>
-<button type = "button" class = "collapsible"><b>Guitar Stand</b></button>
-<div class = "content">
-	<img src = "/images/guitar_stand.jpg" alt = "My custom guitar stand." style = "width: 40%; float: left;">
-	<div style = "float: right; width: 55%;"><p>
-		I made this guitar stand in year 12 as my woodworking project.
-		I started by researching what current trends were in guitar stand design, followed by taking measurements of my own guitar.
-		With this I could sketch out potential designs.
-		Once I was satisfied with the sketches I created a mock-up from wire to test my measurements, especially important given all the curves.
-		With the mock-up adjusted as desired I traced it to make patterns for bending guides.
+	<h2>Software</h2>
+	<h3>RLQuest</h3>
+	<h3 style = "float: right;" align = "right">June 2020 - Current</h3>
+	<!--<h4>a game-like desktop overlay for productivity</h4>-->
+	<p>
+		The goal of this project is to use ideas from quest-tracking in computer games to make a desktop overlay to improve productivity on the computer.
+		<a href = "rlquest.html">Living design document and discussion.</a>
+	</p>
+</div>
+
+<div id="Past" class = "tabcontent">
+	<h2>Games</h2>
+	<h3>Alchemaster</h3>
+	<h3 style = "float: right;" align = "right">January 2019 - February 2019</h3>
+  <!-- add more details -->
+	<h4>Summary</h4>
+	<ul>
+		<li>Worked with 2 other students to create a short tower defence game.</li>
+		<li>Implemented Dijkstra/Flow maps for efficient path-finding</li>
+		<li>Designed and revised the project's User Interface</li>
+	</ul>
+	<p>
+		This was a project I worked on with two others over the course of 5 weeks.
+		I have preserved the initial form of it <a href = "/projects/Alchemaster/">here</a> but you should also be able to view it on the course website <a href = "http://www.cs.otago.ac.nz/cosc360/game-projects-alchemaster.php">here</a>.
+		Because the other two members of the group were proficient in different kinds of art I was one of the main programmers for the project.
+		In particular I took responsibility for the behaviour of the enemies in the game with the pathfinding being easily one of the most interesting aspects.
+		I also took partial responsibility for the User Interface design as I was the member of the group most experienced with the genre of game we were creating - tower defence - which also meant that I naturally was given partial responsibility for checking the balance of the game.
 	</p>
 	<p>
-		Once the guides were cut out I needed to co-ordinate with my teacher more than I had before in order to figure out the best way to bend wood into the desired shape.
-		His suggestion was to use the lamination method; whereby several thin pieces of wood are bent, after being softened via boiling, at the same time then glued in shape and trimmed.
-		This is the technique ultimately used, but it did necessitate him making something that we could boil several pieces of wood nearing 2 meters in length at the same time.
-		His solution was a long vertical steel tube capped at one end and heated via camp stove.
-		The bending and lamination process was repeated for each of the four pieces, each with their own guide and many clamps.
+		The path-finding was interesting because the technique we had learned for path-finding was among the best for a low number of actors, especially when destinations needed to be recalculated frequently.
+		This method, the A* method, has each actor probe possible moves, preferring the shortest path towards the target that it has thus far explored.
+		I knew that we would have many many actors on the screen at once, meaning that any way to reduce their need to think would be greatly valuable.
+		Further, our game had player-created mazes being constructed while enemies were moving towards a static goal location.
+		The long mazes meant that there was a long path to calculate.
 	</p>
 	<p>
-		With the main pieces constructed all that remained was the receiver for the guitar neck, the pads to protect the body of the guitar, and to connect it all together.
-		The neck and back support were connected by drilling and chiselling slots and teeth.
-		The others, including the pads, were connected via dowels made from a different wood for contrast.
-		I made the pads using small thing blocks of wood, a section of suede fabric, and polyfill by placing the polyfill on the block and wrapping it with the suede before using a staple gun to affix the suede to the bottom of the block.
-		The neck receiver, like the dowels, was made from a hard wood for contrast and durability.
+		The solution I arrived at, after discussing the project with a friend with greater experience in the field, was to use flow maps.
+		In this case the map itself calculates the distance a given tile is from the goal.
+		The downside is that the entirety of the map must be explored to determine its distance from the goal, but the upside is that this only needs to happen once per update.
+		For enemies this is much faster since they simply need to look at the tiles adjacent to them and move towards the one with the lowest distance to the goal.
+		An additional advantage to this technique is that it enabled us to tell if there were areas of the map that were blocked off thus impossible to navigate from.
+		This allowed us to prevent actions that would cause this situation.
+	</p>
+	
+	<h2>Software</h2>
+	<h3>Software Engineering Class Project(s)</h3>
+	<h3 style = "float: right;" align = "right">February 2018 - November 2018</h3>
+	<!-- TODO: add more details-->
+	<h4>Summary</h4>
+	<ul>
+		<li>Collaborated with a total of 3 other students to create 2 mobile applications designed with disability support in mind</li>
+		<li>Performed User Interface testing for the second application</li>
+	</ul>
+	
+	<h2>Woodworking</h2>
+	<p>
+		My woodworking projects can be seen below in their own sections that may be expanded.
+		This is done, for now, to ensure that the text associated with the projects stay with the projects themselves.
+		I do have experience with more rough and ready woodworking, though, in more recent times in the form of helping my father with home-renovations.
 	</p>
 	<p>
-		Finally, once everything was assembled and sanded smooth, I coated all of the wooden pieces with a couple layers of lacquer via spray-gun, sanding with high grit sand-paper between coats to remove burrs.
-	</p></div>
+		The renovations were for replacing rotted wood in our shed and otherwise reinforcing it.
+		One example where we needed to think a bit was that one of the beams we cut rot out of was not cut square due to difficulty of access so we then had to estimate the angle  it was off by so that we could wedge the fresh piece in.
+	</p>
+	<button type = "button" class = "collapsible"><b>Guitar Stand</b></button>
+	<div class = "content">
+		<img src = "/images/guitar_stand.jpg" alt = "My custom guitar stand." style = "width: 40%; float: left;">
+		<div style = "float: right; width: 55%;"><p>
+			I made this guitar stand in year 12 as my woodworking project.
+			I started by researching what current trends were in guitar stand design, followed by taking measurements of my own guitar.
+			With this I could sketch out potential designs.
+			Once I was satisfied with the sketches I created a mock-up from wire to test my measurements, especially important given all the curves.
+			With the mock-up adjusted as desired I traced it to make patterns for bending guides.
+		</p>
+		<p>
+			Once the guides were cut out I needed to co-ordinate with my teacher more than I had before in order to figure out the best way to bend wood into the desired shape.
+			His suggestion was to use the lamination method; whereby several thin pieces of wood are bent, after being softened via boiling, at the same time then glued in shape and trimmed.
+			This is the technique ultimately used, but it did necessitate him making something that we could boil several pieces of wood nearing 2 meters in length at the same time.
+			His solution was a long vertical steel tube capped at one end and heated via camp stove.
+			The bending and lamination process was repeated for each of the four pieces, each with their own guide and many clamps.
+		</p>
+		<p>
+			With the main pieces constructed all that remained was the receiver for the guitar neck, the pads to protect the body of the guitar, and to connect it all together.
+			The neck and back support were connected by drilling and chiselling slots and teeth.
+			The others, including the pads, were connected via dowels made from a different wood for contrast.
+			I made the pads using small thing blocks of wood, a section of suede fabric, and polyfill by placing the polyfill on the block and wrapping it with the suede before using a staple gun to affix the suede to the bottom of the block.
+			The neck receiver, like the dowels, was made from a hard wood for contrast and durability.
+		</p>
+		<p>
+			Finally, once everything was assembled and sanded smooth, I coated all of the wooden pieces with a couple layers of lacquer via spray-gun, sanding with high grit sand-paper between coats to remove burrs.
+		</p></div>
+	</div>
+	<button type = "button" class = "collapsible"><b>Serviette Holder</b></button>
+	<div class = "content">
+		<img src = "/images/napkin_holder.jpg" alt = "Serviette holder with drawer." style = "width: 40%; float: left;">
+	</div>
+	<button type = "button" class = "collapsible"><b>Picture Frame</b></button>
+	<div class = "content">
+		<img src = "/images/picture_frame.jpg" alt = "Simple wooden picture frame." style = "width: 40%; float: left;">
+	</div>
+	<button type = "button" class = "collapsible"><b>Spice Rack</b></button>
+	<div class = "content">
+		<img src = "/images/spice_rack.jpg" alt  = "Five-tier deep blue spice rack." style = "width: 40%; float: left;">
+	</div>
 </div>
-<button type = "button" class = "collapsible"><b>Serviette Holder</b></button>
-<div class = "content">
-	<img src = "/images/napkin_holder.jpg" alt = "Serviette holder with drawer." style = "width: 40%; float: left;">
-</div>
-<button type = "button" class = "collapsible"><b>Picture Frame</b></button>
-<div class = "content">
-	<img src = "/images/picture_frame.jpg" alt = "Simple wooden picture frame." style = "width: 40%; float: left;">
-</div>
-<button type = "button" class = "collapsible"><b>Spice Rack</b></button>
-<div class = "content">
-	<img src = "/images/spice_rack.jpg" alt  = "Five-tier deep blue spice rack." style = "width: 40%; float: left;">
-</div>
+
+	
+	
+
 <!--<h3>Hobobeau</h3>
 <p>
   Hobobeau started out as a silly idea to learn about game development with a couple friends.
