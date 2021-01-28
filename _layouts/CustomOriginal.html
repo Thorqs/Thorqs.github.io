@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ page.title}}</title>
+    <!-- link to main style sheet -->
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+  </head>
+  
+  <body>
+    <nav>
+      <ul>
+        <li><a href="mailto:quinn.thorsnes@gmail.com">Email</a></li>
+        <li><a href="https://github.com/sionth">Github</a></li>
+      </ul>
+      <ul>
+        <li><a href="/">About</a></li>
+        <!--<li><a href="/cv">CV</a></li>-->
+        <li><a href="/projects">Projects</a></li>
+      </ul>
+    </nav>
+    <div class="container">
+      {{ content }}
+    </div><!-- /.container -->
+    <!--<footer>
+      
+    </footer> -->
+  </body>
+  
+  <script>
+	
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++)
+  {
+    coll[i].addEventListener("click", function()
+    {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if(content.style.maxHeight)
+      {
+        content.style.maxHeight = null;
+      }
+      else
+      {
+        content.style.maxHeight = content.scrollHeight + "px";
+      }
+    });
+  }
+	
+	function openPage(pageName, elmnt)
+	{
+		/* hide all elements with class = "tabcontent" by default */
+		var i, tabcontent, tablinks;
+		tabcontent = document.getElementsByClassName("tabcontent");
+		for (i = 0; i < tabcontent.length; i++)
+		{
+			tabcontent[i].style.display = "none";
+		}
+		
+		/* Remove the background color of all tablinks/buttons */
+		tablinks = document.getElementsByClassName("tablink");
+		for (i = 0; i < tablinks.length; i++)
+		{
+			tablinks[i].style.backgroundColor = "";
+		}
+		
+		/* Show the specific tab content */
+		document.getElementById(pageName).style.display = "block";
+		
+		elmnt.style.backgroundColor = "#1a1a1a";
+	}
+	
+	/* Get the element with id="defaultOpen" and click on it */
+	document.getElementById("defaultOpen").click();
+  </script>
+</html>
