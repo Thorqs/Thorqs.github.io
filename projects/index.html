@@ -39,6 +39,40 @@ title: Quinn's Projects
 </div>
 
 <div id="Past" class = "tabcontent">
+	<h2>Artificial Intelligence</h2>
+	<h3 style = "float: left; width: 50%;">Robot Navigation Group Project</h3>
+	<h3 style = "float: right; width 50%;">March 2018 - April 2018</h3>
+	<p>
+		The goal of this project was to take a pre-constructed robot and program it, using python, to audibly count a certain number of tiles of alternating colours then turn and push a bottle from a specified location.
+		Once the robot had started a run, we were not allowed to interfere with it.
+		The first part of our approach was to familiarise ourselves with the sensors on the robot.
+		From memory: the robot had a basic colour sensor looking directly down, a touch sensor facing forward on the front, and a ultra-sonic (high-frequency, high-precision variation on SONAR) sensor facing forward on top.
+		This is in addition to the motors that could report their approximate revolutions from a given reference point.
+	</p>
+	<p>
+		The touch sensor was well-behaved while the the ultrasonic and colour sensors were less so.
+		The challenge with the colour-sensor was that its readings depended heavily on the lighting of the surface it was looking at yet it did not have a light of its own.
+		The colour sensor's behaviour thus depended heavily on ambient light.
+		To combat this, we used the colour sensor to take multiple readings of various features in the environment as frequently as we could without hindering other stages of development.
+		This allowed us to get an idea of the range in which each feature could vary within and even then it was necessary to include a calibration phase.
+	</p>
+	<p>
+		The challenge with the ultrasonic sensor was that, while it could measure distance within 30 cm or so reasonably well, it could not tell where objects were in its detection cone.
+		This was a challenge because we had initially wanted to use the ultrasonic sensor to check that the robot was going in the correct direction and to charge when it saw the target bottle.
+		Only the target bottle was tall enough to be visible to the sensor so we thought this safe.
+		The problem was that the robot would sometimes, essentially, pick up the bottle in its peripheral vision and charge right past it.
+		I believe our solution involved finding the object at the edge of the cone to get an idea of the bottle's relative location.
+	</p>
+	<p>
+		A challenge we didn't expect was that the two motors would sometimes turn at slightly different rates when travelling at low speeds.
+		The main area that this presented priblems with was the stage where it had to count a number of tiels before turning.
+		The tiles to count were visually distinct so it wasn't difficult to keep it on track.
+		What was difficult was keeping it on track in such a way that we could guarantee the tiles had not been miscounted.
+	</p>
+	<p>
+		Overall this was an interesting project and taught us about thoroughnes in testing solutions and how the real word often brings complications.
+	</p>
+	
 	<h2>Games</h2>
 	<h3 style = "float: left; width: 50%;">Alchemaster</h3>
 	<h3 style = "float: right; width: 50%;" align = "right">January 2019 - February 2019</h3>
