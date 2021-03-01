@@ -2,13 +2,51 @@
 ---
 
 @import "{{ site.theme }}";
+
 .container
 {
-	width: 90%;
+	width: calc(90% - 160px);
 	max-width: none;
+	margin-left: 160px; /* same as nav-left */
+	/*padding: 0px 10px;*/
 }
 
-nav ul, footer ul
+/* Sidebar Manu */// restyle as top on mobile?
+.sidenav
+{
+	height: 100%; //comment out for auto height
+	width: 160px; //Set width of sidebar
+	position: fixed; // Don't scroll
+	z-index: 1; // always on top
+	top: 100px; // stay on top
+	left: 0;
+	//background-color: #111;
+	overflow-x: hidden; // disable horizontal scroll
+	padding-top: 20px;
+}
+
+/* side nav menu links */
+.sidenav a
+{
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	//font-size: 25px;
+	//color: #818181;
+	display: block;
+}
+
+/* change link colour on mouseover */
+/*.sidenav a:hover
+{
+	color: #f1f1f1
+}*/
+
+/* On smaller screens, style different */
+/*@media screen and (max-height: 450px) 
+{
+}*/
+
+/*nav ul, footer ul
 {
     //font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding-left: 10%;
@@ -19,7 +57,7 @@ nav ul li, footer ul li
 {
     display: inline;
     margin-right: 10%; // spacing between items
-}
+}*/
 
 /* Style button to open and close collapsible */
 .collapsible
