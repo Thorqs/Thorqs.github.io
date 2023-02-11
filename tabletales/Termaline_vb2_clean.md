@@ -127,54 +127,54 @@ Tok grunted in reply. Although he knew he shouldn't be, he was grateful for the 
 And then he knocked again a minute later.
 And again.
 And again.
-      "WHAT!?" screamed  a broad shouldered woman opening the door. Her hair was neck length and her eyes were an angry bright blue.
-     "Hi Captain Claire," said Tok wiping a little spittle from his face. "Do you have a few minutes?"
-     The woman calmed down a few shades, her irises changing to deep a forest brown. "Today's not a good day Tok," she said. 
-      Tok smiled grimly. "Tell me about it.  I'm guessing it's gold?"
-       Claire's eyes flared a bright blue again. "You're damn right it's gold," she snarled. "It's always gold! Do you know how many more thefts there have been since food became scarce?
-      "*And* we're being overworked just attempting to track them all! And now.... The nerve of Oarus! The guard needs to eat too, you know? We don't have the *time* to go foraging for it." Clair cut in before Tok could reply.
-     Tok waited a few seconds until he was sure Clair was done and taking careful note of her still blue irises before hazarding: "Wage cut that bad?"
-      She glared at him. "Yes," she replied flatly. Then Claire smiled sweetly; asked "but what can I do for you today kind citizen?" 
-     Tok paused. Claire was cursed so she couldn't hide her emotions. But she knew anyone who knew her was aware of that. Unfortunately, that meant she didn't bother restraining herself. The way she saw it, they'd been warned. And he knew she knew he knew that.
-      Tok looked over his shoulder. The rest of the guard appeared to be hard at work. Specifically staying out of Claire's way.
-      "Business..." He replied slowly, watching Claire as he announciated each syllable. 
-      Claire laughed. "Your don't have any money Tok. And even if you did, you look like you just got jumped by out of towners."
-       *This is getting me nowhere* Tok thought rubbing some of the dirt on his face self conciously. He took a breath and spoke the words he'd been practicing on the way here. "Captain, today I braved the mine. And well, uh..." He paused awkwardly, "I'd like to talk to you about it." After a moment he added, "Preferably in private."
-      "Right, and what did you see down there *champion?*" Claire mocked.
-      Tok thought about how easily the small child could kill him. The possibility of them hiding amongst the rafters; of their eyes on his back even now. He shuddered. Looking Claire in the eyes he said "I- I can't tell you here."
-       Something of his thoughts must have come across in his manner because Claire's eyes narrowed. She stepped back and held open the door to her office. 
-       Claire kept a tidy office, with little papers stacked in a box labelled "open," others in "ongoing," and some in a cabinet labelled "closed." The cabinet didn't look like it had been opened in some time. Tok really didn't see the point. Either the work got done or it didn't, that sort of grouped it up for you didn't it? 
-      The door clicked closed and Claire strode around her desk and sat down. "All right Tok, let's see the blood on the snow."
+"WHAT!?" screamed  a broad shouldered woman opening the door. Her hair was neck length and her eyes were an angry bright blue.
+"Hi Captain Claire," said Tok wiping a little spittle from his face. "Do you have a few minutes?"
+The woman calmed down a few shades, her irises changing to deep a forest brown. "Today's not a good day Tok," she said. 
+Tok smiled grimly. "Tell me about it.  I'm guessing it's gold?"
+Claire's eyes flared a bright blue again. "You're damn right it's gold," she snarled. "It's always gold! Do you know how many more thefts there have been since food became scarce?
+"*And* we're being overworked just attempting to track them all! And now.... The nerve of Oarus! The guard needs to eat too, you know? We don't have the *time* to go foraging for it." Clair cut in before Tok could reply.
+Tok waited a few seconds until he was sure Clair was done and taking careful note of her still blue irises before hazarding: "Wage cut that bad?"
+She glared at him. "Yes," she replied flatly. Then Claire smiled sweetly; asked "but what can I do for you today kind citizen?" 
+Tok paused. Claire was cursed so she couldn't hide her emotions. But she knew anyone who knew her was aware of that. Unfortunately, that meant she didn't bother restraining herself. The way she saw it, they'd been warned. And he knew she knew he knew that.
+Tok looked over his shoulder. The rest of the guard appeared to be hard at work. Specifically staying out of Claire's way.
+"Business..." He replied slowly, watching Claire as he announciated each syllable. 
+Claire laughed. "Your don't have any money Tok. And even if you did, you look like you just got jumped by out of towners."
+*This is getting me nowhere* Tok thought rubbing some of the dirt on his face self conciously. He took a breath and spoke the words he'd been practicing on the way here. "Captain, today I braved the mine. And well, uh..." He paused awkwardly, "I'd like to talk to you about it." After a moment he added, "Preferably in private."
+"Right, and what did you see down there *champion?*" Claire mocked.
+Tok thought about how easily the small child could kill him. The possibility of them hiding amongst the rafters; of their eyes on his back even now. He shuddered. Looking Claire in the eyes he said "I- I can't tell you here."
+Something of his thoughts must have come across in his manner because Claire's eyes narrowed. She stepped back and held open the door to her office. 
+Claire kept a tidy office, with little papers stacked in a box labelled "open," others in "ongoing," and some in a cabinet labelled "closed." The cabinet didn't look like it had been opened in some time. Tok really didn't see the point. Either the work got done or it didn't, that sort of grouped it up for you didn't it? 
+The door clicked closed and Claire strode around her desk and sat down. "All right Tok, let's see the blood on the snow."
 
 
 He confessed he hadn't gone very far into the the mine. Just far enough to dig for some uncut gems in the abandoned carts. Probably just got lucky in any case. 
 "That's it? That's all you wanted to tell me?" Claire asked. 
-     "No. I'm afraid not." Tok took a deep breath, thought of So'ok, and let it out slowly. "Look Claire I'll be frank. I'm tired of Oarus' methods and think something needs to change." 
-      "Oh? And why don't you speak out against him in public instead of my cosy office?"
-      "Because I'm Tok. Snow shoveling, copper settling Tok. So I need backing."
-      "Really? And after you outlined those reasons why should I back you?"
-       He reached down into his pocket for the purse Wercs had given him, pulled it out, and upended it. Coins clinked and chinked as they spilled out onto Claire's desk. "Because I will risk everything if it will make a difference," he replied.
-       Claire's eyes were yellow with surprise. She glanced up at Tok and frowned, eyes transitioning to a suspicious grey. "That's a lot of money for a few uncut gems, Tok." She said.
-     Tok felt his skin going hot beneath his clothes. He tried to hide it by shrugging and "nonchalantly" taking his parkas off. Which was hard because his fingers felt like they'd been dipped in yak-butter. Throughout the flimsy charade he noticed Claire's irises settle into a deep dark-grey.  Tok sighed. "My yak's were stolen," he said, trying to sound angry enough to explain his flushed skin. "The mine's been closed for awhile now and their isn't anything coming across the pass. High risk high reward Claire." *And I need the money for So'ok,* he thought to himself.
-      Claire got up and paced behind her desk. *She doesn't look convinced,* Tok thought. He started edging a little off his chair, weighing up the distance between him, the money, and the door.
-       Claire spun smartly and put her hands down on the desk.
-       "I don't like this Tok," she said.."It sets a bad precedent."
-      *And now I cross the threshold,* Tok thought with self loathing. 
-      "You only need to overlook minor acts committed against Oarus' supporters when they happen. And continue investigations for others once more precedented crimes have been handled," he replied trying to sound confident. "And it won't be for long Claire. Just long enough to keep your men afloat until we can get Oarus out of the way and clean up his mess." *And then hopefully I can get out of this mess.*
-      Claire's eyes became a pained red. She looked down at the coins spilled across her desk, up at the door to her office, and sighed. "Alright," she said. "But only until Oarus is no longer speaker."
-       "Until Oarus is no longer speaker," Tok echoed. "Well, Claire. I think I had better let you get back to work," Tok said standing up with a groan. For a moment Tok thought about asking her to find his yaks but it was overruled by the part of his mind screaming at him to get out and bury his head in the snow.
+"No. I'm afraid not." Tok took a deep breath, thought of So'ok, and let it out slowly. "Look Claire I'll be frank. I'm tired of Oarus' methods and think something needs to change." 
+"Oh? And why don't you speak out against him in public instead of my cosy office?"
+"Because I'm Tok. Snow shoveling, copper settling Tok. So I need backing."
+"Really? And after you outlined those reasons why should I back you?"
+He reached down into his pocket for the purse Wercs had given him, pulled it out, and upended it. Coins clinked and chinked as they spilled out onto Claire's desk. "Because I will risk everything if it will make a difference," he replied.
+Claire's eyes were yellow with surprise. She glanced up at Tok and frowned, eyes transitioning to a suspicious grey. "That's a lot of money for a few uncut gems, Tok." She said.
+Tok felt his skin going hot beneath his clothes. He tried to hide it by shrugging and "nonchalantly" taking his parkas off. Which was hard because his fingers felt like they'd been dipped in yak-butter. Throughout the flimsy charade he noticed Claire's irises settle into a deep dark-grey.  Tok sighed. "My yak's were stolen," he said, trying to sound angry enough to explain his flushed skin. "The mine's been closed for awhile now and their isn't anything coming across the pass. High risk high reward Claire." *And I need the money for So'ok,* he thought to himself.
+Claire got up and paced behind her desk. *She doesn't look convinced,* Tok thought. He started edging a little off his chair, weighing up the distance between him, the money, and the door.
+Claire spun smartly and put her hands down on the desk.
+"I don't like this Tok," she said.."It sets a bad precedent."
+*And now I cross the threshold,* Tok thought with self loathing. 
+"You only need to overlook minor acts committed against Oarus' supporters when they happen. And continue investigations for others once more precedented crimes have been handled," he replied trying to sound confident. "And it won't be for long Claire. Just long enough to keep your men afloat until we can get Oarus out of the way and clean up his mess." *And then hopefully I can get out of this mess.*
+Claire's eyes became a pained red. She looked down at the coins spilled across her desk, up at the door to her office, and sighed. "Alright," she said. "But only until Oarus is no longer speaker."
+"Until Oarus is no longer speaker," Tok echoed. "Well, Claire. I think I had better let you get back to work," Tok said standing up with a groan. For a moment Tok thought about asking her to find his yaks but it was overruled by the part of his mind screaming at him to get out and bury his head in the snow.
 "I'll come by again but I'll try to keep our chats infrequent enough that no one will wonder," he said as calmly as he could. He Turned to leave with all the non-chalance of a child who just broke a vase. Each step feeling a little too long, a little too hurried. 
-        When his hand finally reached the door Claire spoke: "Tok. If you cross me, I will quit my post, hunt you down, and throw us both in a cell."
-      "Of course," he replied, his mouth dry. He didn't need to turn around to see what colour her irises would be. Really he didn't want to. 
+When his hand finally reached the door Claire spoke: "Tok. If you cross me, I will quit my post, hunt you down, and throw us both in a cell."
+"Of course," he replied, his mouth dry. He didn't need to turn around to see what colour her irises would be. Really he didn't want to. 
 
 ---
 
 Once Tok was outside he took off through the snow, shovel gripped tightly in his hand. Not until he was sure he was out of sight of the Guard house did he allow himself to lean against a wall and let his pent up fear shake itself through his body. *Deep breaths* he thought,*Deep breaths.* "Fuck," he muttered.
-        "It's not good to curse, mister" said an unfortunately familiar voice from above. Tok looked up to see Wercs dangled precariously from a cross-beam below the eaves of the house Tok was presently using for respite. One leg absentmindedly kicked the eaves sending a cascade of snow down into a heap next to Tok. 
-       "I did what you asked kid. What do you want now?"
-      Another small bag landed in the snow pile next to Tok. "Just maintain 'n leverage," Wercs replied. "Visited Shander for you while you were busy."
-      "*For* me?" Tok replied, a sinking feeling growing in his Stomach.
-      "Medicine for your daughter. That's what you wanted the money for, right mister? 
-        "I was worried she might become a corpse when you went to buy it."
-        Tok stared at the unkempt child swinging from the eaves for a few seconds. Hardly older than his own daughter. Wercs grinned and then faded away. Their body becomming flakes of snow that scattered in the wind.
-      Tok's shoulders started shaking, he couldn't help it. It started as a throaty chuckle and rose to a belly roar of a laugh. They had him, he thought. Whoever *they* were. And that meant he really was running for speaker. Well to the nine hells with it, everyone knows things were better before Oarus Masthew became speaker.
+"It's not good to curse, mister" said an unfortunately familiar voice from above. Tok looked up to see Wercs dangled precariously from a cross-beam below the eaves of the house Tok was presently using for respite. One leg absentmindedly kicked the eaves sending a cascade of snow down into a heap next to Tok. 
+"I did what you asked kid. What do you want now?"
+Another small bag landed in the snow pile next to Tok. "Just maintain 'n leverage," Wercs replied. "Visited Shander for you while you were busy."
+"*For* me?" Tok replied, a sinking feeling growing in his Stomach.
+"Medicine for your daughter. That's what you wanted the money for, right mister? 
+"I was worried she might become a corpse when you went to buy it."
+Tok stared at the unkempt child swinging from the eaves for a few seconds. Hardly older than his own daughter. Wercs grinned and then faded away. Their body becomming flakes of snow that scattered in the wind.
+Tok's shoulders started shaking, he couldn't help it. It started as a throaty chuckle and rose to a belly roar of a laugh. They had him, he thought. Whoever *they* were. And that meant he really was running for speaker. Well to the nine hells with it, everyone knows things were better before Oarus Masthew became speaker.
