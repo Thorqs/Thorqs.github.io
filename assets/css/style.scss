@@ -5,9 +5,9 @@
 
 .container
 {
-	width: calc(90% - 160px);
+	width: calc(50% - 250px);
 	max-width: none;
-	margin-left: 160px; /* same as nav-left */
+	margin-left: 250px; /* same as nav-left */
 	/*padding: 0px 10px;*/
 }
 
@@ -15,7 +15,7 @@
 .sidenav
 {
 	height: 100%; //comment out for auto height
-	width: 160px; //Set width of sidebar
+	width: 250px; //Set width of sidebar
 	position: fixed; // Don't scroll
 	z-index: 1; // always on top
 	top: 100px; // stay on top
